@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nivel_focos",
+    "nombre": "Nivel de focos por municipio",
+    "que_mide": "Qué tan fuerte es la cantidad de focos de calor de un municipio en la semana, comparada con lo normal de la temporada.",
+    "formula": "Sin focos si hay 0; Habitual si hay hasta p50; Elevado si hay hasta p75; Muy elevado si hay más que p75. El KPI muestra el porcentaje de municipios con focos que están en Muy elevado.",
+    "umbral": {
+      "verde": "Hasta 25 % de los municipios con focos en Muy elevado",
+      "ambar": "De 25 % hasta 40 %",
+      "rojo": "Más de 40 %"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Cortes por temporada calculados con las semanas con focos de 2022 a 2024. Temporada húmeda: p50 2 y p75 5 focos. Temporada seca (julio a noviembre): p50 4 y p75 12 focos. Por construcción, cerca de 25 % de los casos con focos supera el p75, por eso ese es el límite verde.",
+      "experiencia del negocio": "El límite de 40 % para el rojo es un supuesto del equipo (sin dato oficial)."
+    },
+    "fuente_dato": "BDQueimadas (INPE), panel semanal por municipio.",
+    "limitaciones": "El conteo depende de que el satélite pase y no haya nubes; un municipio grande tiene más focos que uno pequeño. Los cortes son nacionales, no por municipio.",
+    "accion_sugerida": "Ámbar o rojo: revisar la lista de municipios en Muy elevado y confirmar con la brigada local si hay incendios activos."
+  },
+  {
+    "id": "alertas_vs_capacidad",
+    "nombre": "Municipios en alerta frente a la capacidad de respuesta",
+    "que_mide": "Cuántos municipios el modelo marca en alerta para la próxima semana y si alcanzan los equipos de respuesta.",
+    "formula": "Alerta si 1.4 x focos predichos supera el p75 de la temporada de la semana proyectada (nivel Muy elevado). Se cuentan los municipios en alerta y se comparan con la capacidad.",
+    "umbral": {
+      "verde": "Hasta 70 municipios en alerta",
+      "ambar": "De 71 a 150 municipios",
+      "rojo": "Más de 150 municipios"
+    },
+    "base_del_umbral": {
+      "dato pasado": "La regla de alerta (k=1.4, p75 por temporada) sale de la validación con datos de 2022 a 2024.",
+      "experiencia del negocio": "Capacidad base de 70 municipios (se probó entre 60 y 150). Supuesto derivado de 1,489 brigadistas y brigadas de 10 a 25; no existe dato oficial."
+    },
+    "fuente_dato": "Predicciones del modelo de focos a 7 días.",
+    "limitaciones": "La capacidad es un supuesto declarado; no hay dato oficial de brigadas. Con datos semanales no se sabe el día exacto del incendio.",
+    "accion_sugerida": "Ámbar o rojo: priorizar la lista de alertas por orden de prioridad, pedir apoyo de brigadas de otros estados y confirmar la capacidad real con la autoridad."
+  },
+  {
+    "id": "variacion_interanual",
+    "nombre": "Variación interanual de focos por estado",
+    "que_mide": "Cuánto subieron o bajaron los focos de las últimas 4 semanas frente al mismo periodo del año anterior, en cada estado.",
+    "formula": "(focos de las últimas 4 semanas - focos del mismo periodo un año antes) / focos del periodo anterior x 100. Solo se calcula si el periodo anterior tuvo al menos 20 focos. El KPI muestra el estado con mayor aumento.",
+    "umbral": {
+      "verde": "Hasta 20 %",
+      "ambar": "De 20 % hasta 40 %",
+      "rojo": "Más de 40 %"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Con 2023 y 2024 (ventana de 4 semanas por estado, 628 casos), la referencia de 40 % cae en el percentil 63.4: 36.6 % de los casos la supera y 47.3 % supera 20 %. Mediana 15.8 %, p75 86.3 %, p90 204.8 %. Se mantiene el valor del negocio como alerta temprana, sabiendo que el rojo se activa con frecuencia en meses de subida.",
+      "experiencia del negocio": "Pará 2024: +50 % en julio y +40 % en agosto. El 20 % del ámbar es un supuesto del equipo."
+    },
+    "fuente_dato": "BDQueimadas (INPE), panel semanal agregado por estado.",
+    "limitaciones": "Con pocos focos el porcentaje se dispara; por eso se exige una base mínima. Un año anterior muy bueno o muy malo cambia la lectura. Solo hay datos desde 2022.",
+    "accion_sugerida": "Ámbar o rojo: mirar el estado y el mes, comparar con las lluvias y reforzar la prevención en ese estado."
+  },
+  {
+    "id": "anticipacion_alerta",
+    "nombre": "Anticipación de la alerta",
+    "que_mide": "Con cuántos días de aviso el modelo anuncia los municipios en alerta.",
+    "formula": "Horizonte del modelo (7 días) comparado con la anticipación mínima (3 días).",
+    "umbral": {
+      "verde": "Horizonte de 3 días o más",
+      "ambar": "No se usa",
+      "rojo": "Horizonte menor a 3 días"
+    },
+    "base_del_umbral": {
+      "dato pasado": "No se usa dato pasado: el horizonte es una decisión de diseño del modelo.",
+      "experiencia del negocio": "Anticipación mínima de 3 días. Ataque inicial medio 25.6 h nacional y 55 h en el Norte; Ramalho et al. 2021 (supuesto declarado: con datos semanales no se mide)."
+    },
+    "fuente_dato": "Diseño del modelo (ia_models/modelos_metadata.json).",
+    "limitaciones": "Es informativo y un supuesto declarado: con datos semanales no se mide el tiempo real entre la alerta y el incendio.",
+    "accion_sugerida": "Rojo: el aviso llega tarde; revisar si el modelo cambió de horizonte antes de usar las alertas."
+  },
+  {
+    "id": "riesgo_fuego_inpe",
+    "nombre": "Riesgo de fuego INPE (contexto)",
+    "que_mide": "Promedio del índice de riesgo de fuego del INPE por estado en la semana (0 a 1).",
+    "formula": "Promedio del riesgo_fuego_promedio de los municipios del estado; el KPI muestra el estado con valor más alto.",
+    "umbral": {
+      "verde": "Menor a 0.4",
+      "ambar": "De 0.4 a 0.7",
+      "rojo": "Mayor a 0.7"
+    },
+    "base_del_umbral": {
+      "dato pasado": "No se calculó con datos propios.",
+      "experiencia del negocio": "Cortes del INPE [0.15, 0.4, 0.7, 0.95] (el 0.95 marca riesgo crítico). El índice se deriva del clima (lluvia, humedad, temperatura), no mide focos reales."
+    },
+    "fuente_dato": "INPE, riesgo de fuego diario, promedio semanal.",
+    "limitaciones": "Es solo contexto: depende del clima y puede ser alto sin que haya focos. Algunos municipios no tienen dato y se omiten del promedio.",
+    "accion_sugerida": "Ámbar o rojo: tomarlo como aviso de condiciones secas y combinarlo con las alertas del modelo."
+  },
+  {
+    "id": "calidad_aire_pm25",
+    "nombre": "Calidad del aire, PM2.5 (contexto)",
+    "que_mide": "Concentración de partículas finas en el aire, que sube con el humo de los incendios.",
+    "formula": "Promedio semanal de PM2.5 de los municipios del estado; el KPI muestra el estado con mayor valor.",
+    "umbral": {
+      "verde": "Hasta 15 ug/m3",
+      "ambar": "Más de 15 y hasta 60 ug/m3",
+      "rojo": "Más de 60 ug/m3"
+    },
+    "base_del_umbral": {
+      "dato pasado": "No se calculó con datos propios.",
+      "experiencia del negocio": "Guía de la OMS (15 ug/m3) y estándar CONAMA PI-1 de Brasil (60 ug/m3)."
+    },
+    "fuente_dato": "Reanálisis atmosférico (CAMS), promedio semanal por municipio.",
+    "limitaciones": "Es un modelo de reanálisis, no una estación de medición; puede subestimar picos locales.",
+    "accion_sugerida": "Ámbar o rojo: avisar a salud pública y recomendar a la población evitar esfuerzo físico al aire libre."
+  },
+  {
+    "id": "deforestacion_deter",
+    "nombre": "Alertas de deforestación DETER (contexto)",
+    "que_mide": "Hectáreas con alerta de deforestación en la semana en los estados analizados.",
+    "formula": "Suma semanal de deter_area_ha; se compara con los percentiles de la serie semanal de 2022 a 2024.",
+    "umbral": {
+      "verde": "Hasta 81,571 ha (p75)",
+      "ambar": "De 81,571 a 173,227 ha",
+      "rojo": "Más de 173,227 ha (p90)"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Percentiles p75 (ámbar) y p90 (rojo) de la serie semanal de 2022 a 2024, calculados solo con entrenamiento.",
+      "experiencia del negocio": "Sin umbral del negocio."
+    },
+    "fuente_dato": "DETER (INPE), alertas de deforestación; panel semanal completo.",
+    "limitaciones": "El DETER del Hito 2 estaba truncado; aquí se usa el panel completo. Las alertas se publican con retraso y pueden corregirse después.",
+    "accion_sugerida": "Ámbar o rojo: cruzar con focos en el mismo municipio, porque la deforestación suele anteceder al fuego."
+  },
+  {
+    "id": "control_mae_movil",
+    "nombre": "MAE móvil de 4 semanas",
+    "que_mide": "Error promedio del modelo (en focos por municipio) en las últimas 4 semanas.",
+    "formula": "Promedio de |focos reales - focos predichos| de todos los municipios en las últimas 4 semanas.",
+    "umbral": {
+      "verde": "Hasta 6.752",
+      "ambar": "No se usa",
+      "rojo": "Más de 6.752 (con dos semanas seguidas se recomienda reentrenar)"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Umbrales calculados como percentiles de las ventanas móviles de las predicciones fuera de muestra de los 4 pliegos de validación (2023 y 2024; modelo reajustado en cada pliego con margen de 4 semanas). Ventanas del MAE: 4 semanas; recall y falsas alarmas: 8 semanas, porque con 4 semanas hay pocas alertas reales y el recall sale ruidoso. Umbral = percentil 90 de la distribución (mediana 1.31, p90 6.75, 89 ventanas).",
+      "experiencia del negocio": "Sin umbral del negocio."
+    },
+    "fuente_dato": "Predicciones del modelo y focos observados de la semana objetivo.",
+    "limitaciones": "Necesita 4 semanas con focos observados. El error sube de forma natural en la temporada seca, por eso el umbral es más holgado que el error de la temporada húmeda.",
+    "accion_sugerida": "Si sale en vigilar, revisar los datos de entrada; si se repite dos semanas, pedir el reentrenamiento del modelo."
+  },
+  {
+    "id": "control_recall_alerta",
+    "nombre": "Recall de alerta",
+    "que_mide": "De los municipios que sí tuvieron una semana Muy elevada, cuántos el modelo avisó.",
+    "formula": "Alertas acertadas / municipios con semana Muy elevada, en las últimas 8 semanas. Alerta = 1.4 x focos predichos > p75 de la temporada (5 húmeda, 12 seca).",
+    "umbral": {
+      "verde": "0.326 o más",
+      "ambar": "No se usa",
+      "rojo": "Menor a 0.326 (con dos semanas seguidas se recomienda reentrenar)"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Umbrales calculados como percentiles de las ventanas móviles de las predicciones fuera de muestra de los 4 pliegos de validación (2023 y 2024; modelo reajustado en cada pliego con margen de 4 semanas). Ventanas del MAE: 4 semanas; recall y falsas alarmas: 8 semanas, porque con 4 semanas hay pocas alertas reales y el recall sale ruidoso. Umbral = percentil 10 de la distribución (mediana 0.62, p10 0.326, 73 ventanas).",
+      "experiencia del negocio": "Sin umbral del negocio."
+    },
+    "fuente_dato": "Predicciones del modelo y focos observados.",
+    "limitaciones": "Se calcula juntando 8 semanas porque una sola tiene pocas alertas; se exige un mínimo de 30 alertas reales en la ventana. En 2025 el recall global fue 0.494.",
+    "accion_sugerida": "Si sale en vigilar, no confiar solo en el modelo y apoyarse en el nivel de focos observado; dos semanas seguidas, reentrenar."
+  },
+  {
+    "id": "control_falsas_alarmas",
+    "nombre": "Tasa de falsas alarmas",
+    "que_mide": "De los municipios que no tuvieron semana Muy elevada, cuántos el modelo marcó en alerta por error.",
+    "formula": "Alertas falsas / municipios sin semana Muy elevada, en las últimas 8 semanas.",
+    "umbral": {
+      "verde": "Hasta 0.0515",
+      "ambar": "No se usa",
+      "rojo": "Más de 0.0515 (se marca vigilar)"
+    },
+    "base_del_umbral": {
+      "dato pasado": "Umbrales calculados como percentiles de las ventanas móviles de las predicciones fuera de muestra de los 4 pliegos de validación (2023 y 2024; modelo reajustado en cada pliego con margen de 4 semanas). Ventanas del MAE: 4 semanas; recall y falsas alarmas: 8 semanas, porque con 4 semanas hay pocas alertas reales y el recall sale ruidoso. Umbral = percentil 90 de la distribución (mediana 0.0130, p90 0.0515).",
+      "experiencia del negocio": "Sin umbral del negocio."
+    },
+    "fuente_dato": "Predicciones del modelo y focos observados.",
+    "limitaciones": "Muchas falsas alarmas gastan la capacidad de respuesta; subir el factor k las aumenta y bajarlo reduce el recall.",
+    "accion_sugerida": "Si sale en vigilar, revisar si la lista de alertas supera la capacidad y confirmar en terreno antes de movilizar equipos."
+  }
+]

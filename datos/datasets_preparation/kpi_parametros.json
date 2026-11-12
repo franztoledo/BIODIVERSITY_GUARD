@@ -1,0 +1,83 @@
+{
+  "nivel_focos_municipio_semana": {
+    "valor": {
+      "cortes_por_temporada": {
+        "humeda": {
+          "p50": 2.0,
+          "p75": 5.0
+        },
+        "seca": {
+          "p50": 4.0,
+          "p75": 12.0
+        }
+      },
+      "seca": "julio a noviembre",
+      "niveles": [
+        "Sin focos",
+        "Habitual (hasta p50)",
+        "Elevado (hasta p75)",
+        "Muy elevado (más de p75)"
+      ]
+    },
+    "fuente": "Calculado con las semanas con focos del entrenamiento (2022 a 2024); EDA sección 14"
+  },
+  "alerta": {
+    "valor": "nivel Muy elevado",
+    "fuente": "Decisión del equipo; con Elevado o Muy elevado la capacidad de 70 se supera en 86 % de las semanas secas"
+  },
+  "capacidad_de_atencion_municipios_en_alerta": {
+    "valor": {
+      "base": 70,
+      "sensibilidad": [
+        60,
+        150
+      ]
+    },
+    "fuente": "Supuesto derivado de 1,489 brigadistas y brigadas de 10 a 25; no existe dato oficial"
+  },
+  "variacion_interanual_de_focos": {
+    "valor": {
+      "referencia_pct": 40,
+      "por": "estado y mes"
+    },
+    "fuente": "Pará 2024: +50 % en julio y +40 % en agosto"
+  },
+  "anticipacion_minima": {
+    "valor": {
+      "dias": 3
+    },
+    "fuente": "Ataque inicial medio 25.6 h nacional y 55 h en el Norte; Ramalho et al. 2021 (supuesto declarado: con datos semanales no se mide)"
+  },
+  "punto_de_operacion": {
+    "valor": {
+      "regla": "probabilidad > C/L",
+      "C_sobre_L": [
+        0.1,
+        0.2,
+        0.5
+      ]
+    },
+    "fuente": "Regla costo-pérdida; sin valores públicos"
+  },
+  "kpis_de_control": {
+    "valor": [
+      "recall de alerta",
+      "falsas alarmas",
+      "MAE móvil de 4 semanas"
+    ],
+    "fuente": "Los umbrales se fijan tras el modelado con datos de validación"
+  },
+  "referencias_de_contexto": {
+    "valor": {
+      "riesgo_fuego_inpe": [
+        0.15,
+        0.4,
+        0.7,
+        0.95
+      ],
+      "pm2_5_oms_ug_m3": 15,
+      "pm2_5_conama_pi1_ug_m3": 60
+    },
+    "fuente": "Solo contexto en el dashboard"
+  }
+}

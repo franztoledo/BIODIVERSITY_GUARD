@@ -1,0 +1,6 @@
+# base SQLite local del backend
+backend/biodiversity_guard.db
+__pycache__/
+*.zip
+resultados/cache_tuning*/
+datos/datasets_preprocesamiento/SISAM/sisam_limpio.csv

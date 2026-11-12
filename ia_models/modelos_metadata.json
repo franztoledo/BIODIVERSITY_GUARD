@@ -1,0 +1,513 @@
+{
+  "version_modelos": "1.0.0",
+  "fecha_entrenamiento": "2026-11-12 10:58:53",
+  "semilla": 42,
+  "entrenamiento": {
+    "desde": "2022-01-31",
+    "hasta": "2024-12-02",
+    "margen_semanas": 4
+  },
+  "versiones_librerias": {
+    "python": "3.11.0",
+    "pandas": "3.1.1",
+    "numpy": "2.2.4",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.2",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "imbalanced-learn": "0.14.2",
+    "shap": "0.51.0",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.3"
+  },
+  "modelos": {
+    "f1_7d": {
+      "archivo": "modelo_frente1_7d.joblib",
+      "algoritmo": "LightGBM",
+      "tratamiento_desbalance": null,
+      "lista_variables": "sin_sisam",
+      "variables": [
+        "num_incendios",
+        "num_incendios_rez1",
+        "num_incendios_rez2",
+        "num_incendios_rez3",
+        "num_incendios_rez4",
+        "num_incendios_mm4",
+        "T2M",
+        "RH2M",
+        "WS2M",
+        "precip_nasa_sem",
+        "dias_sin_lluvia_nasa",
+        "precip_acum_30d",
+        "precip_acum_30d_rez4",
+        "dias_sin_lluvia_nasa_rez1",
+        "dias_sin_lluvia_nasa_rez2",
+        "dias_sin_lluvia_nasa_rez3",
+        "dias_sin_lluvia_nasa_rez4",
+        "T2M_rez3",
+        "T2M_rez4",
+        "precip_nasa_sem_rez1",
+        "precip_nasa_sem_rez2",
+        "precip_nasa_sem_rez3",
+        "precip_nasa_sem_rez4",
+        "lat",
+        "lon",
+        "sem_anio_sin",
+        "sem_anio_cos",
+        "temporada_seca",
+        "uf_AC",
+        "uf_AM",
+        "uf_AP",
+        "uf_MA",
+        "uf_MT",
+        "uf_PA",
+        "uf_RO",
+        "uf_RR",
+        "uf_TO"
+      ],
+      "parametros": {
+        "colsample_bytree": 0.6061695553391381,
+        "learning_rate": 0.030398696602619617,
+        "min_child_samples": 40,
+        "n_estimators": 260,
+        "num_leaves": 90,
+        "reg_alpha": 0.27964859516062457,
+        "reg_lambda": 0.0105517886909659,
+        "subsample": 0.6092249700165663
+      },
+      "transformacion_target": "log1p al entrenar y expm1 con minimo 0 al predecir (el modelo guardado predice focos reales)",
+      "origen_parametros": "busqueda aleatoria de 30 combinaciones con validacion cruzada temporal de 4 folds",
+      "tamano_archivo_mb": 0.807,
+      "metricas": {
+        "subconjunto": "todas",
+        "validacion": {
+          "MAE": {
+            "media": 3.001354653463099,
+            "desv": 2.785537621478857
+          },
+          "MAE_con_focos": {
+            "media": 6.532312834240714,
+            "desv": 3.903963006614683
+          },
+          "R2_log1p": {
+            "media": 0.588740534626665,
+            "desv": 0.07981278381337659
+          },
+          "RMSE": {
+            "media": 14.113012412025133,
+            "desv": 13.857460003435598
+          },
+          "precision_alerta": {
+            "media": 0.7650799522785493,
+            "desv": 0.021367676110957315
+          },
+          "recall_alerta": {
+            "media": 0.479136910821787,
+            "desv": 0.10006881290079164
+          },
+          "sesgo": {
+            "media": -1.532645344418381,
+            "desv": 1.5067175806981536
+          },
+          "tasa_falsas_alarmas": {
+            "media": 0.013577703534308472,
+            "desv": 0.010691696883713617
+          }
+        },
+        "prueba_2025": {
+          "MAE": 1.270041989862603,
+          "RMSE": 4.936348340708432,
+          "MAE_con_focos": 4.151690612337195,
+          "R2_log1p": 0.5649480311610117,
+          "sesgo": -0.4010992814978655,
+          "recall_alerta": 0.3710094909404659,
+          "precision_alerta": 0.7003257328990228,
+          "tasa_falsas_alarmas": 0.006934499133187609
+        }
+      }
+    },
+    "f1_30d": {
+      "archivo": "modelo_frente1_30d.joblib",
+      "algoritmo": "XGBoost",
+      "tratamiento_desbalance": null,
+      "lista_variables": "con_sisam",
+      "variables": [
+        "num_incendios",
+        "num_incendios_rez1",
+        "num_incendios_rez2",
+        "num_incendios_rez3",
+        "num_incendios_rez4",
+        "num_incendios_mm4",
+        "T2M",
+        "RH2M",
+        "WS2M",
+        "precip_nasa_sem",
+        "dias_sin_lluvia_nasa",
+        "precip_acum_30d",
+        "precip_acum_30d_rez4",
+        "dias_sin_lluvia_nasa_rez1",
+        "dias_sin_lluvia_nasa_rez2",
+        "dias_sin_lluvia_nasa_rez3",
+        "dias_sin_lluvia_nasa_rez4",
+        "T2M_rez3",
+        "T2M_rez4",
+        "precip_nasa_sem_rez1",
+        "precip_nasa_sem_rez2",
+        "precip_nasa_sem_rez3",
+        "precip_nasa_sem_rez4",
+        "pm2_5_reanalise",
+        "o3_reanalise",
+        "no2_reanalise",
+        "co_reanalise",
+        "so2_reanalise",
+        "lat",
+        "lon",
+        "sem_anio_sin",
+        "sem_anio_cos",
+        "temporada_seca",
+        "uf_AC",
+        "uf_AM",
+        "uf_AP",
+        "uf_MA",
+        "uf_MT",
+        "uf_PA",
+        "uf_RO",
+        "uf_RR",
+        "uf_TO"
+      ],
+      "parametros": {
+        "colsample_bytree": 0.5527471299151353,
+        "learning_rate": 0.05722220200314628,
+        "max_depth": 6,
+        "min_child_weight": 12,
+        "n_estimators": 439,
+        "reg_alpha": 3.7173717478250508,
+        "reg_lambda": 0.6030938759418332,
+        "subsample": 0.922976062065625
+      },
+      "transformacion_target": "log1p al entrenar y expm1 con minimo 0 al predecir (el modelo guardado predice focos reales)",
+      "origen_parametros": "parámetros ajustados a 7 días",
+      "tamano_archivo_mb": 0.65,
+      "metricas": {
+        "subconjunto": "todas",
+        "validacion": {
+          "MAE": {
+            "media": 9.942272665995262,
+            "desv": 8.903732791823945
+          },
+          "MAE_con_focos": {
+            "media": 14.696200773559612,
+            "desv": 9.453231683821567
+          },
+          "R2_log1p": {
+            "media": 0.691319277059355,
+            "desv": 0.0475515936881023
+          },
+          "RMSE": {
+            "media": 45.4335259648745,
+            "desv": 45.14304880924023
+          },
+          "sesgo": {
+            "media": -4.859958756415921,
+            "desv": 5.104810962170251
+          }
+        },
+        "prueba_2025": {
+          "MAE": 4.616159405142356,
+          "RMSE": 20.28769464270519,
+          "MAE_con_focos": 9.22654116472724,
+          "R2_log1p": 0.6727467069707203,
+          "sesgo": -0.032653138700480575
+        }
+      }
+    },
+    "f2": {
+      "archivo": "modelo_frente2.joblib",
+      "algoritmo": "Random Forest",
+      "tratamiento_desbalance": "smote",
+      "lista_variables": "sin_sisam",
+      "variables": [
+        "num_incendios",
+        "num_incendios_rez1",
+        "num_incendios_rez2",
+        "num_incendios_rez3",
+        "num_incendios_rez4",
+        "num_incendios_mm4",
+        "T2M",
+        "RH2M",
+        "WS2M",
+        "precip_nasa_sem",
+        "dias_sin_lluvia_nasa",
+        "precip_acum_30d",
+        "precip_acum_30d_rez4",
+        "dias_sin_lluvia_nasa_rez1",
+        "dias_sin_lluvia_nasa_rez2",
+        "dias_sin_lluvia_nasa_rez3",
+        "dias_sin_lluvia_nasa_rez4",
+        "T2M_rez3",
+        "T2M_rez4",
+        "precip_nasa_sem_rez1",
+        "precip_nasa_sem_rez2",
+        "precip_nasa_sem_rez3",
+        "precip_nasa_sem_rez4",
+        "lat",
+        "lon",
+        "sem_anio_sin",
+        "sem_anio_cos",
+        "temporada_seca",
+        "uf_AC",
+        "uf_AM",
+        "uf_AP",
+        "uf_MA",
+        "uf_MT",
+        "uf_PA",
+        "uf_RO",
+        "uf_RR",
+        "uf_TO",
+        "riesgo_fuego_t",
+        "sin_riesgo_t"
+      ],
+      "parametros": {
+        "max_depth": 13,
+        "max_features": 0.5,
+        "min_samples_leaf": 22,
+        "n_estimators": 508
+      },
+      "transformacion_target": "ninguna: predice la clase ordinal 0 a 3 (Bajo, Moderado, Alto, Crítico)",
+      "origen_parametros": "busqueda aleatoria de 30 combinaciones con validacion cruzada temporal de 4 folds",
+      "tamano_archivo_mb": 27.738,
+      "metricas": {
+        "subconjunto": "con_clase_t",
+        "validacion": {
+          "AUC_Alto": {
+            "media": 0.8421923945662422,
+            "desv": 0.04006368007524225
+          },
+          "AUC_Bajo": {
+            "media": 0.9296443469486345,
+            "desv": 0.0247178951556175
+          },
+          "AUC_Crítico": {
+            "media": 0.9181972250502299,
+            "desv": 0.01881098123790277
+          },
+          "AUC_Moderado": {
+            "media": 0.7958710055081146,
+            "desv": 0.05577128665229037
+          },
+          "AUC_macro": {
+            "media": 0.8714762430183053,
+            "desv": 0.027496618507428464
+          },
+          "F1_Alto": {
+            "media": 0.4918009369927772,
+            "desv": 0.0499126391216066
+          },
+          "F1_Bajo": {
+            "media": 0.8166134190550842,
+            "desv": 0.09840812894532812
+          },
+          "F1_Crítico": {
+            "media": 0.5323527752056243,
+            "desv": 0.25455926852568317
+          },
+          "F1_Moderado": {
+            "media": 0.44639044577570297,
+            "desv": 0.04531382004532615
+          },
+          "F1_macro": {
+            "media": 0.5717893942572971,
+            "desv": 0.06248337748715912
+          },
+          "accuracy": {
+            "media": 0.6796681325650202,
+            "desv": 0.06187819112405247
+          },
+          "error_ordinal": {
+            "media": 0.38247973570135346,
+            "desv": 0.07147684996683992
+          },
+          "recall_Alto": {
+            "media": 0.553642016099964,
+            "desv": 0.053886957855213954
+          },
+          "recall_Bajo": {
+            "media": 0.7543531688183406,
+            "desv": 0.13266552380728122
+          },
+          "recall_Crítico": {
+            "media": 0.5029644840233292,
+            "desv": 0.28954551007455787
+          },
+          "recall_Moderado": {
+            "media": 0.5056951032066932,
+            "desv": 0.05375512686073621
+          },
+          "recall_critico": {
+            "media": 0.5029644840233292,
+            "desv": 0.28954551007455787
+          }
+        },
+        "prueba_2025": {
+          "accuracy": 0.6023511372348581,
+          "F1_macro": 0.5911731717186377,
+          "error_ordinal": 0.48709430104778945,
+          "recall_critico": 0.6271604938271605,
+          "F1_Bajo": 0.7406237662850375,
+          "recall_Bajo": 0.6953298739807264,
+          "F1_Moderado": 0.45096952908587257,
+          "recall_Moderado": 0.4903614457831325,
+          "F1_Alto": 0.5247267048412285,
+          "recall_Alto": 0.5454545454545454,
+          "F1_Crítico": 0.6483726866624122,
+          "recall_Crítico": 0.6271604938271605,
+          "AUC_Bajo": 0.9028164388250846,
+          "AUC_Moderado": 0.7628522523437896,
+          "AUC_Alto": 0.7982392871988053,
+          "AUC_Crítico": 0.9014334992420715,
+          "AUC_macro": 0.8413353694024378
+        }
+      }
+    }
+  },
+  "clases_riesgo": {
+    "cortes": [
+      0.4,
+      0.7,
+      0.95
+    ],
+    "ordinal": {
+      "Bajo": 0,
+      "Moderado": 1,
+      "Alto": 2,
+      "Crítico": 3
+    }
+  },
+  "alerta": {
+    "factor_k": 1.4,
+    "umbral_seca": 12.0,
+    "umbral_humeda": 5.0,
+    "regla_de_eleccion": "el k mas bajo cuyo recall de validacion (promedio de 4 folds) iguala o supera el de la persistencia en validacion",
+    "definicion": "alerta si factor_k x focos predichos superan el p75 de la temporada de la semana objetivo",
+    "rango_probado": [
+      1.0,
+      3.0,
+      0.1
+    ],
+    "metricas_validacion": {
+      "calibrado": {
+        "recall": 0.5814832238937794,
+        "precision": 0.6835350660467479,
+        "falsas_alarmas": 0.02411329332923018
+      },
+      "sin_calibrar": {
+        "recall": 0.479136910821787,
+        "precision": 0.7650799522785492,
+        "falsas_alarmas": 0.013577703534308472
+      },
+      "persistencia": {
+        "recall": 0.5791210229813553,
+        "precision": 0.5907848230236119,
+        "falsas_alarmas": 0.0333337911236216
+      }
+    },
+    "metricas_2025": {
+      "calibrado": {
+        "recall": 0.4943917169974116,
+        "precision": 0.60062893081761,
+        "falsas_alarmas": 0.014358935705133037,
+        "falsas_alarmas_por_semana": 7.470588235294118
+      },
+      "sin_calibrar": {
+        "recall": 0.3710094909404659,
+        "precision": 0.7003257328990228,
+        "falsas_alarmas": 0.006934499133187609,
+        "falsas_alarmas_por_semana": 3.607843137254902
+      },
+      "persistencia": {
+        "recall": 0.5099223468507333,
+        "precision": 0.5179666958808063,
+        "falsas_alarmas": 0.0207281224089847,
+        "falsas_alarmas_por_semana": 10.784313725490197
+      }
+    },
+    "falsas_alarmas_adicionales_por_semana_2025": 3.8627450980392157,
+    "alertas_adicionales_detectadas_por_semana_2025": 2.803921568627451
+  },
+  "kpi_control": {
+    "modelo": "LightGBM sin SISAM",
+    "factor_k": 1.4,
+    "regla": "umbrales calculados solo con validacion cruzada (4 folds): MAE movil = media + desviacion; recall de alerta = media - desviacion; falsas alarmas = media + desviacion",
+    "mae_movil_4_semanas_maximo": {
+      "final": 5.786892274941955,
+      "provisional": 6.408,
+      "media_validacion": 3.001354653463099,
+      "desv_entre_folds": 2.785537621478857
+    },
+    "recall_alerta_minimo": {
+      "final": 0.4776962704735739,
+      "provisional": 0.36,
+      "media_validacion": 0.5814832238937794,
+      "desv_entre_folds": 0.10378695342020551
+    },
+    "tasa_falsas_alarmas_maximo": {
+      "final": 0.04215001111074304,
+      "provisional": 0.026,
+      "media_validacion": 0.02411329332923018,
+      "desv_entre_folds": 0.018036717781512862
+    },
+    "comprobacion_2025": {
+      "semanas_mae_movil_sobre_umbral": 0,
+      "semanas_evaluadas": 48,
+      "recall_alerta": 0.4943917169974116,
+      "tasa_falsas_alarmas": 0.014358935705133037
+    },
+    "ventanas_moviles": {
+      "ventana_mae_semanas": 4,
+      "ventana_recall_falsas_alarmas_semanas": 8,
+      "motivo_ventana_8": "con 4 semanas el recall sale ruidoso (rango entre p10 y p90 de 0.245 a 0.750, con pocas alertas reales); con 8 semanas se estabiliza",
+      "percentiles_usados": {
+        "mae_movil_max": 90,
+        "recall_alerta_min": 10,
+        "falsas_alarmas_max": 90
+      },
+      "umbrales": {
+        "mae_movil_max": 6.752,
+        "recall_alerta_min": 0.326,
+        "falsas_alarmas_max": 0.0515
+      },
+      "distribucion_validacion": {
+        "mae_movil_4s": {
+          "p5": 0.3501,
+          "p10": 0.3761,
+          "p50": 1.311,
+          "p90": 6.7522,
+          "p95": 8.6
+        },
+        "recall_alerta": {
+          "p5": 0.2123,
+          "p10": 0.3258,
+          "p50": 0.625,
+          "p90": 0.7336,
+          "p95": 0.7459
+        },
+        "falsas_alarmas": {
+          "p5": 0.003,
+          "p10": 0.0062,
+          "p50": 0.013,
+          "p90": 0.0515,
+          "p95": 0.0602
+        }
+      },
+      "n_ventanas": {
+        "mae": 89,
+        "recall_y_falsas_alarmas": 73
+      },
+      "fuente": "Predicciones fuera de muestra de los 4 pliegos de validación (modelo final reajustado en cada pliego con los parámetros del metadato y margen de 4 semanas); ventanas dentro de cada pliego"
+    }
+  },
+  "utilidades": {
+    "modulo": "ia_models.utilidades",
+    "nota": "importar este modulo antes de joblib.load; los modelos guardan la referencia a el y no a __main__"
+  }
+}

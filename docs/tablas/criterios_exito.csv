@@ -1,0 +1,5 @@
+﻿tarea,criterio,valor_validacion,valor_2025,cumple_validacion,cumple_2025
+Frente 1 a 7 días,MAE ≤ 2.946 (val.) y ≤ 1.165 (2025),3.001354653463099,1.270041989862603,No,No
+Frente 1 a 30 días,MAE ≤ 11.044 (val.) y ≤ 4.523 (2025),9.942272665995262,4.616159405142356,Sí,No
+Frente 2: F1 macro,F1 macro ≥ 0.615,0.5717893942572971,0.5911731717186377,No,Referencia: No
+Frente 2: recall de Crítico,Recall de Crítico ≥ 0.645,0.5029644840233292,0.6271604938271605,No,Referencia: No

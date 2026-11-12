@@ -1,0 +1,9 @@
+| partición | desde | hasta | filas | uso |
+|---|---|---|---|---|
+| entrenamiento | 2022-01-31 | 2024-12-02 | 80907 | Entrenamiento y validación cruzada (4 folds expansivos) |
+| margen | 2024-12-09 | 2024-12-30 | 2172 | Margen de 4 semanas; no se usa para entrenar ni evaluar |
+| prueba | 2025-01-06 | 2025-12-22 | 27693 | Prueba final 2025, evaluada una sola vez |
+| flujo_2026 | 2026-01-05 | 2026-10-19 | 22806 | Flujo simulado 2026 (semanas subidas al dashboard) |
+| descartadas | 2022-01-03 | 2025-12-29 | 2715 | Semanas sin historia suficiente (inicio 2022) o incompletas (fin 2025) |
+
+Filas = municipio-semana del panel preparado, contadas por la columna particion. Valores de particion en el panel: entrenamiento=80907, prueba=27693, flujo_2026=22806, descartada=2715, margen=2172

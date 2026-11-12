@@ -1,0 +1,25 @@
+frente,metrica,mejor_es,mejor_baseline,validacion_media,validacion_desv,prueba_2025,clave
+Frente 1 a 7 días,MAE (focos),menor,Lineal con SISAM,3.27361,3.13442,1.29491,MAE
+Frente 1 a 7 días,RMSE (focos),menor,Persistencia,14.2048,11.899,5.29086,RMSE
+Frente 1 a 7 días,MAE solo con focos reales,menor,Lineal sin SISAM,7.01503,4.63406,4.23617,MAE_con_focos
+Frente 1 a 7 días,Sesgo medio (focos),cercano a 0,Persistencia,-0.0217253,0.0252769,-0.0288521,sesgo
+Frente 1 a 7 días,R2 en log1p,mayor,Lineal sin SISAM,0.562204,0.0761288,0.531859,R2_log1p
+Frente 1 a 30 días,MAE (focos),menor,Árbol sin SISAM,12.2713,11.1345,5.025,MAE
+Frente 1 a 30 días,RMSE (focos),menor,Árbol sin SISAM,52.9379,48.8259,21.4294,RMSE
+Frente 1 a 30 días,MAE solo con focos reales,menor,Árbol sin SISAM,17.9148,11.9691,10.0338,MAE_con_focos
+Frente 1 a 30 días,Sesgo medio (focos),cercano a 0,Persistencia,-0.14913,0.620239,-0.159607,sesgo
+Frente 1 a 30 días,R2 en log1p,mayor,Lineal con SISAM,0.594057,0.0737976,0.597312,R2_log1p
+Frente 2,Accuracy,mayor,Persistencia,0.686354,0.0644603,0.582162,accuracy
+Frente 2,F1 macro,mayor,Persistencia,0.555453,0.0599199,0.561658,F1_macro
+Frente 2,F1 Bajo,mayor,Persistencia,0.823663,0.092699,0.72968,F1_Bajo
+Frente 2,F1 Moderado,mayor,Persistencia,0.413488,0.0163857,0.40678,F1_Moderado
+Frente 2,F1 Alto,mayor,Persistencia,0.436356,0.0796137,0.474429,F1_Alto
+Frente 2,F1 Crítico,mayor,Persistencia,0.548306,0.239755,0.635745,F1_Crítico
+Frente 2,Recall Bajo,mayor,Persistencia,0.83212,0.117668,0.73536,recall_Bajo
+Frente 2,Recall Moderado,mayor,Árbol balanceado con SISAM,0.491683,0.101843,0.46747,recall_Moderado
+Frente 2,Recall Alto,mayor,Árbol balanceado sin SISAM,0.498046,0.0585969,0.520563,recall_Alto
+Frente 2,Recall Crítico (recall de Crítico),mayor,Persistencia,0.545406,0.260537,0.634568,recall_Crítico
+Frente 2,Error ordinal medio,menor,Persistencia,0.392589,0.0720177,0.526706,error_ordinal
+KPI de alerta (7 días),Recall de alerta,mayor,Persistencia,0.579121,0.0828032,0.509922,recall_alerta
+KPI de alerta (7 días),Precisión de alerta,mayor,Lineal con SISAM,0.743199,0.0289731,0.670947,precision_alerta
+KPI de alerta (7 días),Tasa de falsas alarmas,menor,Lineal con SISAM,0.0141433,0.011751,0.00772594,tasa_falsas_alarmas

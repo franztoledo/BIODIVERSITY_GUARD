@@ -1,0 +1,449 @@
+{
+  "particiones": {
+    "entrenamiento": [
+      "2022-01-31",
+      "2024-12-02"
+    ],
+    "margen": [
+      "2024-12-09",
+      "2024-12-30"
+    ],
+    "prueba": [
+      "2025-01-06",
+      "2025-12-22"
+    ],
+    "flujo_2026": [
+      "2026-01-05",
+      "2026-10-19"
+    ],
+    "descartadas": [
+      "2022-01-03",
+      "2022-01-10",
+      "2022-01-17",
+      "2022-01-24",
+      "2025-12-29"
+    ],
+    "semanas_de_margen": 4
+  },
+  "pliegos": [
+    {
+      "pliego": 1,
+      "entreno": [
+        "2022-01-31",
+        "2022-11-28"
+      ],
+      "validacion": [
+        "2023-01-02",
+        "2023-06-26"
+      ]
+    },
+    {
+      "pliego": 2,
+      "entreno": [
+        "2022-01-31",
+        "2023-05-29"
+      ],
+      "validacion": [
+        "2023-07-03",
+        "2023-12-25"
+      ]
+    },
+    {
+      "pliego": 3,
+      "entreno": [
+        "2022-01-31",
+        "2023-11-27"
+      ],
+      "validacion": [
+        "2024-01-01",
+        "2024-06-24"
+      ]
+    },
+    {
+      "pliego": 4,
+      "entreno": [
+        "2022-01-31",
+        "2024-05-27"
+      ],
+      "validacion": [
+        "2024-07-01",
+        "2024-12-02"
+      ]
+    }
+  ],
+  "kpi_cortes_focos": {
+    "humeda": {
+      "p50": 2.0,
+      "p75": 5.0
+    },
+    "seca": {
+      "p50": 4.0,
+      "p75": 12.0
+    }
+  },
+  "imputacion": {
+    "riesgo_fuego_t_mediana_entrenamiento": 0.44
+  },
+  "atipicos": {
+    "T2M": {
+      "criterio": "3 desviaciones estándar",
+      "inferior": 20.401741920468936,
+      "superior": 34.4217940617611,
+      "recortar": true
+    },
+    "T2M_MAX": {
+      "criterio": "3 desviaciones estándar",
+      "inferior": 21.912594982306295,
+      "superior": 45.03088926503941,
+      "recortar": true
+    },
+    "RH2M": {
+      "criterio": "IQR",
+      "inferior": 26.077142857142874,
+      "superior": 127.01428571428569,
+      "recortar": true
+    },
+    "WS2M": {
+      "criterio": "IQR",
+      "inferior": -1.2600000000000002,
+      "superior": 2.3171428571428576,
+      "recortar": true
+    },
+    "precip_nasa_sem": {
+      "criterio": "IQR",
+      "inferior": -61.93499999999999,
+      "superior": 112.02499999999998,
+      "recortar": true
+    },
+    "dias_sin_lluvia_nasa": {
+      "criterio": "IQR",
+      "inferior": -7.5,
+      "superior": 12.5,
+      "recortar": false
+    },
+    "precip_acum_30d": {
+      "criterio": "IQR",
+      "inferior": -240.66249999999997,
+      "superior": 473.63749999999993,
+      "recortar": true
+    },
+    "precip_acum_120d": {
+      "criterio": "3 desviaciones estándar",
+      "inferior": -635.417786765568,
+      "superior": 1742.9609901966678,
+      "recortar": true
+    },
+    "pm10_reanalise": {
+      "criterio": "IQR",
+      "inferior": -4.316428571428572,
+      "superior": 42.43214285714286,
+      "recortar": false
+    },
+    "pm2_5_reanalise": {
+      "criterio": "IQR",
+      "inferior": -4.341428571428578,
+      "superior": 32.31000000000001,
+      "recortar": true
+    },
+    "o3_reanalise": {
+      "criterio": "3 desviaciones estándar",
+      "inferior": -13.9183858650369,
+      "superior": 73.06915113521484,
+      "recortar": true
+    },
+    "no2_reanalise": {
+      "criterio": "IQR",
+      "inferior": -1.0642857142857143,
+      "superior": 2.592857142857143,
+      "recortar": true
+    },
+    "co_reanalise": {
+      "criterio": "IQR",
+      "inferior": 0.007142857142857201,
+      "superior": 0.2928571428571428,
+      "recortar": false
+    },
+    "so2_reanalise": {
+      "criterio": "IQR",
+      "inferior": -0.5189285714285716,
+      "superior": 1.1239285714285716,
+      "recortar": true
+    }
+  },
+  "log1p": {
+    "variables": [
+      "num_incendios",
+      "num_incendios_rez1",
+      "num_incendios_rez2",
+      "num_incendios_rez3",
+      "num_incendios_rez4",
+      "num_incendios_mm4",
+      "frp_total",
+      "WS2M",
+      "precip_nasa_sem",
+      "dias_sin_lluvia_nasa",
+      "precip_nasa_sem_rez1",
+      "precip_nasa_sem_rez2",
+      "precip_nasa_sem_rez3",
+      "precip_nasa_sem_rez4",
+      "dias_sin_lluvia_nasa_rez1",
+      "dias_sin_lluvia_nasa_rez2",
+      "dias_sin_lluvia_nasa_rez3",
+      "dias_sin_lluvia_nasa_rez4",
+      "pm10_reanalise",
+      "pm2_5_reanalise",
+      "no2_reanalise",
+      "co_reanalise",
+      "so2_reanalise"
+    ],
+    "umbral_asimetria": 1.0
+  },
+  "escalador": {
+    "columnas": [
+      "num_incendios",
+      "num_incendios_rez1",
+      "num_incendios_rez2",
+      "num_incendios_rez3",
+      "num_incendios_rez4",
+      "num_incendios_mm4",
+      "frp_total",
+      "T2M",
+      "T2M_MAX",
+      "RH2M",
+      "WS2M",
+      "precip_nasa_sem",
+      "dias_sin_lluvia_nasa",
+      "precip_acum_30d",
+      "precip_acum_120d",
+      "precip_acum_30d_rez1",
+      "precip_acum_30d_rez2",
+      "precip_acum_30d_rez3",
+      "precip_acum_30d_rez4",
+      "dias_sin_lluvia_nasa_rez1",
+      "dias_sin_lluvia_nasa_rez2",
+      "dias_sin_lluvia_nasa_rez3",
+      "dias_sin_lluvia_nasa_rez4",
+      "RH2M_rez1",
+      "RH2M_rez2",
+      "RH2M_rez3",
+      "RH2M_rez4",
+      "T2M_MAX_rez1",
+      "T2M_MAX_rez2",
+      "T2M_MAX_rez3",
+      "T2M_MAX_rez4",
+      "T2M_rez1",
+      "T2M_rez2",
+      "T2M_rez3",
+      "T2M_rez4",
+      "precip_nasa_sem_rez1",
+      "precip_nasa_sem_rez2",
+      "precip_nasa_sem_rez3",
+      "precip_nasa_sem_rez4",
+      "pm10_reanalise",
+      "pm2_5_reanalise",
+      "o3_reanalise",
+      "no2_reanalise",
+      "co_reanalise",
+      "so2_reanalise",
+      "lat",
+      "lon",
+      "sem_anio_sin",
+      "sem_anio_cos",
+      "riesgo_fuego_t"
+    ],
+    "media": {
+      "num_incendios": 0.5648557051012675,
+      "num_incendios_rez1": 0.5613995210624653,
+      "num_incendios_rez2": 0.5568175854124284,
+      "num_incendios_rez3": 0.5517695482940621,
+      "num_incendios_rez4": 0.5472091558864562,
+      "num_incendios_mm4": 0.6571251877284203,
+      "frp_total": 1.501991840706442,
+      "T2M": 27.414323484053167,
+      "T2M_MAX": 33.47173719071607,
+      "RH2M": 75.41006976263753,
+      "WS2M": 0.3897369731760234,
+      "precip_nasa_sem": 2.641975726121054,
+      "dias_sin_lluvia_nasa": 0.9611425034865377,
+      "precip_acum_30d": 130.68361832103525,
+      "precip_acum_120d": 553.7007886136278,
+      "precip_acum_30d_rez1": 131.7419414265762,
+      "precip_acum_30d_rez2": 132.8380448539681,
+      "precip_acum_30d_rez3": 133.94795156784951,
+      "precip_acum_30d_rez4": 135.04474572657494,
+      "dias_sin_lluvia_nasa_rez1": 0.9581552553507264,
+      "dias_sin_lluvia_nasa_rez2": 0.9512936380821913,
+      "dias_sin_lluvia_nasa_rez3": 0.9436054978694489,
+      "dias_sin_lluvia_nasa_rez4": 0.9351041951010827,
+      "RH2M_rez1": 75.53127929951317,
+      "RH2M_rez2": 75.67658620391313,
+      "RH2M_rez3": 75.81240455973261,
+      "RH2M_rez4": 75.9485655134908,
+      "T2M_MAX_rez1": 33.4304768547748,
+      "T2M_MAX_rez2": 33.389379298321096,
+      "T2M_MAX_rez3": 33.34716502761523,
+      "T2M_MAX_rez4": 33.305309563934706,
+      "T2M_rez1": 27.391206677984815,
+      "T2M_rez2": 27.36441598885144,
+      "T2M_rez3": 27.337918740688202,
+      "T2M_rez4": 27.31436563120978,
+      "precip_nasa_sem_rez1": 2.6480674397530093,
+      "precip_nasa_sem_rez2": 2.658052014144984,
+      "precip_nasa_sem_rez3": 2.669488146299715,
+      "precip_nasa_sem_rez4": 2.6796380760854217,
+      "pm10_reanalise": 3.0257660850687387,
+      "pm2_5_reanalise": 2.673069825155961,
+      "o3_reanalise": 29.554057681071964,
+      "no2_reanalise": 0.5618442541157678,
+      "co_reanalise": 0.16232609603941828,
+      "so2_reanalise": 0.27483348445324474,
+      "lat": -5.838104233252958,
+      "lon": -53.87255358218948,
+      "sem_anio_sin": -0.005498846034136246,
+      "sem_anio_cos": -0.04528707148581777,
+      "riesgo_fuego_t": 0.45110555034181943
+    },
+    "desviacion": {
+      "num_incendios": 1.0218889435742826,
+      "num_incendios_rez1": 1.0205667431121925,
+      "num_incendios_rez2": 1.0166919107658083,
+      "num_incendios_rez3": 1.012559112133207,
+      "num_incendios_rez4": 1.0101573741181387,
+      "num_incendios_mm4": 0.9985258767887261,
+      "frp_total": 2.401039781415565,
+      "T2M": 2.320950068886311,
+      "T2M_MAX": 3.853010180974564,
+      "RH2M": 16.713156154622553,
+      "WS2M": 0.36497476841348236,
+      "precip_nasa_sem": 1.4879268430005552,
+      "dias_sin_lluvia_nasa": 1.2789803563321915,
+      "precip_acum_30d": 118.00600312064691,
+      "precip_acum_120d": 396.169293340915,
+      "precip_acum_30d_rez1": 118.39072127869089,
+      "precip_acum_30d_rez2": 118.72978823643304,
+      "precip_acum_30d_rez3": 119.10551628874468,
+      "precip_acum_30d_rez4": 119.44964189404351,
+      "dias_sin_lluvia_nasa_rez1": 1.2797522133480088,
+      "dias_sin_lluvia_nasa_rez2": 1.2769546358995638,
+      "dias_sin_lluvia_nasa_rez3": 1.2740210581679239,
+      "dias_sin_lluvia_nasa_rez4": 1.270955562500284,
+      "RH2M_rez1": 16.737747004103337,
+      "RH2M_rez2": 16.72922901292965,
+      "RH2M_rez3": 16.730515690053938,
+      "RH2M_rez4": 16.73533496790371,
+      "T2M_MAX_rez1": 3.8547411585747424,
+      "T2M_MAX_rez2": 3.848803828265689,
+      "T2M_MAX_rez3": 3.847739365730558,
+      "T2M_MAX_rez4": 3.846386685033618,
+      "T2M_rez1": 2.325218882836785,
+      "T2M_rez2": 2.3172241136454033,
+      "T2M_rez3": 2.3135521601653926,
+      "T2M_rez4": 2.3106518344408635,
+      "precip_nasa_sem_rez1": 1.4912635733202273,
+      "precip_nasa_sem_rez2": 1.4907534729247114,
+      "precip_nasa_sem_rez3": 1.490253897324555,
+      "precip_nasa_sem_rez4": 1.4908437005287534,
+      "pm10_reanalise": 0.5891934013473928,
+      "pm2_5_reanalise": 0.4537105622094118,
+      "o3_reanalise": 14.422989110799046,
+      "no2_reanalise": 0.36320138339584696,
+      "co_reanalise": 0.11698150834078065,
+      "so2_reanalise": 0.2104002952087313,
+      "lat": 4.566627729035109,
+      "lon": 7.4560499330600125,
+      "sem_anio_sin": 0.7212506858856242,
+      "sem_anio_cos": 0.6911702337037149,
+      "riesgo_fuego_t": 0.21910839652251998
+    }
+  },
+  "umbrales_clase_riesgo": {
+    "cortes": [
+      0.4,
+      0.7,
+      0.95
+    ],
+    "clases": [
+      "Bajo",
+      "Moderado",
+      "Alto",
+      "Crítico"
+    ],
+    "ordinal": {
+      "Bajo": 0,
+      "Moderado": 1,
+      "Alto": 2,
+      "Crítico": 3
+    },
+    "regla": "Bajo <= 0.40; Moderado (0.40, 0.70]; Alto (0.70, 0.95]; Crítico > 0.95; solo t+1"
+  },
+  "regla_fila_valida": {
+    "valido_f1": "rezagos y media móvil completos y y_7d no nulo",
+    "valido_f1_30d": "valido_f1 y y_30d no nulo (suma de las 4 semanas siguientes con min_count=4)",
+    "valido_f2": "rezagos completos y clase_t1 no nula (riesgo calculado en la semana siguiente)"
+  },
+  "vif": {
+    "umbral": 10.0,
+    "protegidas": [
+      "num_incendios",
+      "num_incendios_rez1",
+      "num_incendios_rez2",
+      "num_incendios_rez3",
+      "num_incendios_rez4",
+      "num_incendios_mm4"
+    ],
+    "eliminadas": [
+      "precip_acum_30d_rez1",
+      "precip_acum_30d_rez3",
+      "pm10_reanalise",
+      "RH2M_rez2",
+      "T2M_MAX_rez1",
+      "RH2M_rez3",
+      "T2M_MAX_rez3",
+      "RH2M_rez1",
+      "T2M_MAX_rez2",
+      "precip_acum_30d_rez2",
+      "T2M_MAX",
+      "RH2M_rez4",
+      "frp_total",
+      "T2M_MAX_rez4",
+      "T2M_rez2",
+      "precip_acum_120d",
+      "T2M_rez1"
+    ],
+    "finales": {
+      "num_incendios": 7.596343856743955,
+      "num_incendios_rez1": 7.418792063442492,
+      "num_incendios_rez2": 7.462765678737892,
+      "num_incendios_rez3": 7.890672587301444,
+      "num_incendios_rez4": 2.9976036178253764,
+      "num_incendios_mm4": 56.662560915955765,
+      "T2M": 7.378661690406461,
+      "RH2M": 9.329027132302196,
+      "WS2M": 1.3391929324720764,
+      "precip_nasa_sem": 7.535286882175939,
+      "dias_sin_lluvia_nasa": 4.67392751331014,
+      "precip_acum_30d": 9.062502857965743,
+      "precip_acum_30d_rez4": 5.00087432055009,
+      "dias_sin_lluvia_nasa_rez1": 4.763645001717996,
+      "dias_sin_lluvia_nasa_rez2": 4.769549759133241,
+      "dias_sin_lluvia_nasa_rez3": 4.875280489506173,
+      "dias_sin_lluvia_nasa_rez4": 4.516260638542826,
+      "T2M_rez3": 9.74771142826637,
+      "T2M_rez4": 8.052135451146274,
+      "precip_nasa_sem_rez1": 7.086726256512635,
+      "precip_nasa_sem_rez2": 7.016246086409979,
+      "precip_nasa_sem_rez3": 7.9542443879985445,
+      "precip_nasa_sem_rez4": 7.1400984352144095,
+      "pm2_5_reanalise": 2.687920411024403,
+      "o3_reanalise": 5.529835231622163,
+      "no2_reanalise": 6.063433001820189,
+      "co_reanalise": 2.9150325298066475,
+      "so2_reanalise": 7.424696938944773,
+      "lat": 2.661202531139591,
+      "lon": 3.7860293167008785,
+      "sem_anio_sin": 3.3370403133689015,
+      "sem_anio_cos": 2.36138199292889
+    }
+  },
+  "limitacion": "Los parámetros se ajustan con todo el entrenamiento y no pliego por pliego."
+}

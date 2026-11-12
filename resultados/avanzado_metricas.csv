@@ -1,0 +1,2625 @@
+frente,modelo,variante,tratamiento,sisam,evaluacion,subconjunto,metrica,valor
+f1_30d,arbol,baseline,no aplica,sin,cv_promedio,todas,MAE,12.2713
+f1_30d,arbol,baseline,no aplica,sin,cv_promedio,todas,MAE_con_focos,17.9148
+f1_30d,arbol,baseline,no aplica,sin,cv_promedio,todas,R2_log1p,0.567812
+f1_30d,arbol,baseline,no aplica,sin,cv_promedio,todas,RMSE,52.9379
+f1_30d,arbol,baseline,no aplica,sin,cv_promedio,todas,sesgo,-4.37981
+f1_30d,lgbm,ajustado,no aplica,con,cv_promedio,todas,MAE,10.031
+f1_30d,lgbm,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,14.819
+f1_30d,lgbm,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.689261
+f1_30d,lgbm,ajustado,no aplica,con,cv_promedio,todas,RMSE,46.2919
+f1_30d,lgbm,ajustado,no aplica,con,cv_promedio,todas,sesgo,-5.39373
+f1_30d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,MAE,10.04
+f1_30d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,14.8357
+f1_30d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.68767
+f1_30d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,RMSE,46.3862
+f1_30d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-5.29918
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE,10.031
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE_con_focos,14.819
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,R2_log1p,0.689261
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,RMSE,46.2919
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,sesgo,-5.39373
+f1_30d,lgbm,defecto,no aplica,con,cv_promedio,todas,MAE,10.1508
+f1_30d,lgbm,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,14.9959
+f1_30d,lgbm,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.679081
+f1_30d,lgbm,defecto,no aplica,con,cv_promedio,todas,RMSE,45.5554
+f1_30d,lgbm,defecto,no aplica,con,cv_promedio,todas,sesgo,-5.0046
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,MAE,14.7522
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,MAE_con_focos,21.7397
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,R2_log1p,0.324397
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,RMSE,63.1831
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,sesgo,-0.14913
+f1_30d,rf,ajustado,no aplica,con,cv_promedio,todas,MAE,10.3605
+f1_30d,rf,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,15.222
+f1_30d,rf,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.663794
+f1_30d,rf,ajustado,no aplica,con,cv_promedio,todas,RMSE,46.6344
+f1_30d,rf,ajustado,no aplica,con,cv_promedio,todas,sesgo,-6.19679
+f1_30d,rf,ajustado,no aplica,sin,cv_promedio,todas,MAE,10.4103
+f1_30d,rf,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,15.3119
+f1_30d,rf,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.662982
+f1_30d,rf,ajustado,no aplica,sin,cv_promedio,todas,RMSE,47.0324
+f1_30d,rf,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-6.31346
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE,10.3605
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE_con_focos,15.222
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,R2_log1p,0.663794
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,RMSE,46.6344
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,sesgo,-6.19679
+f1_30d,rf,defecto,no aplica,con,cv_promedio,todas,MAE,10.4654
+f1_30d,rf,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,15.2553
+f1_30d,rf,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.646052
+f1_30d,rf,defecto,no aplica,con,cv_promedio,todas,RMSE,46.5872
+f1_30d,rf,defecto,no aplica,con,cv_promedio,todas,sesgo,-5.37511
+f1_30d,xgb,ajustado,no aplica,con,cv_promedio,todas,MAE,9.94227
+f1_30d,xgb,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,14.6962
+f1_30d,xgb,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.691319
+f1_30d,xgb,ajustado,no aplica,con,cv_promedio,todas,RMSE,45.4335
+f1_30d,xgb,ajustado,no aplica,con,cv_promedio,todas,sesgo,-4.85996
+f1_30d,xgb,ajustado,no aplica,sin,cv_promedio,todas,MAE,10.172
+f1_30d,xgb,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,15.0134
+f1_30d,xgb,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.688527
+f1_30d,xgb,ajustado,no aplica,sin,cv_promedio,todas,RMSE,47.8057
+f1_30d,xgb,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-4.74914
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE,9.94227
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,MAE_con_focos,14.6962
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,R2_log1p,0.691319
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,RMSE,45.4335
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_promedio,todas,sesgo,-4.85996
+f1_30d,xgb,defecto,no aplica,con,cv_promedio,todas,MAE,11.1574
+f1_30d,xgb,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,16.3289
+f1_30d,xgb,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.658951
+f1_30d,xgb,defecto,no aplica,con,cv_promedio,todas,RMSE,54.4349
+f1_30d,xgb,defecto,no aplica,con,cv_promedio,todas,sesgo,-3.28022
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,MAE,2.98248
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,6.48697
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.591957
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,RMSE,14.1016
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,precision_alerta,0.76116
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,recall_alerta,0.47684
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,sesgo,-1.54934
+f1_7d,lgbm,ajustado,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0137447
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,MAE,3.00135
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,6.53231
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.588741
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,RMSE,14.113
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,precision_alerta,0.76508
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,recall_alerta,0.479137
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-1.53265
+f1_7d,lgbm,ajustado,no aplica,sin,cv_promedio,todas,tasa_falsas_alarmas,0.0135777
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,MAE,3.01539
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,6.54726
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.584672
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,RMSE,13.9542
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,precision_alerta,0.743214
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,recall_alerta,0.475997
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,sesgo,-1.49374
+f1_7d,lgbm,defecto,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0150147
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,MAE,3.27361
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,MAE_con_focos,7.01906
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,R2_log1p,0.561446
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,RMSE,15.3761
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,precision_alerta,0.743199
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,recall_alerta,0.436048
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,sesgo,-2.02546
+f1_7d,lineal,baseline,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0141433
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,MAE,3.46064
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,MAE_con_focos,7.48386
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,R2_log1p,0.398745
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,RMSE,14.2048
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,precision_alerta,0.590785
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,recall_alerta,0.579121
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,sesgo,-0.0217253
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_promedio,todas,tasa_falsas_alarmas,0.0333338
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,MAE,3.03953
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,6.54651
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.586611
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,RMSE,14.027
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,precision_alerta,0.766139
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,recall_alerta,0.473003
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,sesgo,-1.69444
+f1_7d,rf,ajustado,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0129412
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,MAE,3.04099
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,6.56132
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.585879
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,RMSE,14.0627
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,precision_alerta,0.77007
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,recall_alerta,0.470018
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-1.69556
+f1_7d,rf,ajustado,no aplica,sin,cv_promedio,todas,tasa_falsas_alarmas,0.0125271
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,MAE,3.09859
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,6.54004
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.559097
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,RMSE,14.1146
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,precision_alerta,0.760461
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,recall_alerta,0.457119
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,sesgo,-1.58987
+f1_7d,rf,defecto,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0124769
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,MAE,3.00426
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,MAE_con_focos,6.51492
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,R2_log1p,0.587735
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,RMSE,14.2037
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,precision_alerta,0.762016
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,recall_alerta,0.462565
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,sesgo,-1.51829
+f1_7d,xgb,ajustado,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.0137974
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,MAE,3.02623
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,MAE_con_focos,6.55354
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,R2_log1p,0.586968
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,RMSE,14.3681
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,precision_alerta,0.764493
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,recall_alerta,0.469737
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,sesgo,-1.53487
+f1_7d,xgb,ajustado,no aplica,sin,cv_promedio,todas,tasa_falsas_alarmas,0.0138496
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,MAE,3.20029
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,MAE_con_focos,6.87086
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,R2_log1p,0.548026
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,RMSE,15.1976
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,precision_alerta,0.725367
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,recall_alerta,0.482418
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,sesgo,-1.20489
+f1_7d,xgb,defecto,no aplica,con,cv_promedio,todas,tasa_falsas_alarmas,0.017314
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Alto,0.837035
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Bajo,0.923126
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Crítico,0.917171
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Moderado,0.787247
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_macro,0.866145
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Alto,0.462561
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Bajo,0.810867
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Crítico,0.539214
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Moderado,0.425611
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,F1_macro,0.559563
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,accuracy,0.66694
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,error_ordinal,0.399011
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Alto,0.514306
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Bajo,0.747646
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Crítico,0.506852
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Moderado,0.494901
+f2,lgbm,ajustado,pesos,con,cv_promedio,con_clase_t,recall_critico,0.506852
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,AUC_Alto,0.840666
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,AUC_Bajo,0.922749
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,AUC_Crítico,0.918798
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,AUC_Moderado,0.78413
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,AUC_macro,0.866586
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,F1_Alto,0.426698
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,F1_Bajo,0.822993
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,F1_Crítico,0.560169
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,F1_Moderado,0.385878
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,F1_macro,0.548934
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,accuracy,0.687339
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,error_ordinal,0.395391
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,recall_Alto,0.460754
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,recall_Bajo,0.767332
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,recall_Crítico,0.559592
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,recall_Moderado,0.450562
+f2,lgbm,ajustado,pesos,con,cv_promedio,todas,recall_critico,0.559592
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Alto,0.835692
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Bajo,0.923018
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Crítico,0.915443
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Moderado,0.788496
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_macro,0.865662
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Alto,0.460703
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Bajo,0.808113
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Crítico,0.530497
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Moderado,0.43018
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_macro,0.557373
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,accuracy,0.665729
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,error_ordinal,0.400498
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Alto,0.507832
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Bajo,0.741972
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Crítico,0.504616
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Moderado,0.508194
+f2,lgbm,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_critico,0.504616
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,AUC_Alto,0.838834
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,AUC_Bajo,0.921873
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,AUC_Crítico,0.915809
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,AUC_Moderado,0.785877
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,AUC_macro,0.865598
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,F1_Alto,0.418531
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,F1_Bajo,0.819929
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,F1_Crítico,0.560064
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,F1_Moderado,0.388025
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,F1_macro,0.546637
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,accuracy,0.684882
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,error_ordinal,0.398886
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,recall_Alto,0.447578
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,recall_Bajo,0.761895
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,recall_Crítico,0.561299
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,recall_Moderado,0.460794
+f2,lgbm,ajustado,pesos,sin,cv_promedio,todas,recall_critico,0.561299
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.829538
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.922309
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.917879
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.786031
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.863939
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.424806
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.814912
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.554086
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.366603
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.540102
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.677607
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.426749
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.426811
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.888208
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.510634
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.331364
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.510634
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.834213
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.922358
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.920501
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.78616
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.865808
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.385367
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.830482
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.572208
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.325202
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.528315
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,accuracy,0.70241
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.416009
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.375582
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.899895
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.557905
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.28164
+f2,lgbm,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.557905
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Alto,0.825556
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Bajo,0.92225
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Crítico,0.9158
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Moderado,0.785441
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_macro,0.862262
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Alto,0.409174
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Bajo,0.815275
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Crítico,0.538946
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Moderado,0.360964
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_macro,0.53109
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,accuracy,0.673134
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,error_ordinal,0.434221
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Alto,0.409699
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Bajo,0.885883
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Crítico,0.502047
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Moderado,0.3309
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_critico,0.502047
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Alto,0.831038
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Bajo,0.921971
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Crítico,0.918922
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Moderado,0.785743
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_macro,0.864418
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Alto,0.372422
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Bajo,0.829776
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Crítico,0.561356
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Moderado,0.317641
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_macro,0.520299
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,accuracy,0.698195
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,error_ordinal,0.422184
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Alto,0.361905
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Bajo,0.896611
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Crítico,0.546808
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Moderado,0.280373
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_critico,0.546808
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Alto,0.832724
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Bajo,0.924213
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Crítico,0.918042
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Moderado,0.78773
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,AUC_macro,0.865677
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,F1_Alto,0.453663
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,F1_Bajo,0.825358
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,F1_Crítico,0.555631
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,F1_Moderado,0.412549
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,F1_macro,0.5618
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,accuracy,0.678355
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,error_ordinal,0.39699
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,recall_Alto,0.487963
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,recall_Bajo,0.808307
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,recall_Crítico,0.530061
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,recall_Moderado,0.43437
+f2,lgbm,ajustado,smote,con,cv_promedio,con_clase_t,recall_critico,0.530061
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,AUC_Alto,0.836914
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,AUC_Bajo,0.92396
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,AUC_Crítico,0.919835
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,AUC_Moderado,0.786433
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,AUC_macro,0.866786
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,F1_Alto,0.415499
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,F1_Bajo,0.836775
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,F1_Crítico,0.567207
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,F1_Moderado,0.370333
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,F1_macro,0.547454
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,accuracy,0.699914
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,error_ordinal,0.390769
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,recall_Alto,0.435582
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,recall_Bajo,0.825568
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,recall_Crítico,0.570927
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,recall_Moderado,0.380817
+f2,lgbm,ajustado,smote,con,cv_promedio,todas,recall_critico,0.570927
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Alto,0.832481
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Bajo,0.923047
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Crítico,0.916607
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Moderado,0.793383
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_macro,0.86638
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Alto,0.46037
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Bajo,0.823478
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Crítico,0.53039
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Moderado,0.430761
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,F1_macro,0.56125
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,accuracy,0.680558
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,error_ordinal,0.39565
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Alto,0.492622
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Bajo,0.807132
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Crítico,0.504495
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Moderado,0.453508
+f2,lgbm,ajustado,smote,sin,cv_promedio,con_clase_t,recall_critico,0.504495
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,AUC_Alto,0.835952
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,AUC_Bajo,0.92247
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,AUC_Crítico,0.916851
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,AUC_Moderado,0.790469
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,AUC_macro,0.866436
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,F1_Alto,0.42059
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,F1_Bajo,0.835375
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,F1_Crítico,0.561812
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,F1_Moderado,0.382669
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,F1_macro,0.550111
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,accuracy,0.700514
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,error_ordinal,0.390733
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,recall_Alto,0.434032
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,recall_Bajo,0.823113
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,recall_Crítico,0.563552
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,recall_Moderado,0.399756
+f2,lgbm,ajustado,smote,sin,cv_promedio,todas,recall_critico,0.563552
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.822366
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.92108
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.914484
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.783887
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.860454
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.424409
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.816394
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.551617
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.365376
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.539449
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.671307
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.429759
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.429764
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.875628
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.516165
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.337202
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.516165
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.830736
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.921666
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.918563
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.786001
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.864242
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.387467
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.832436
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.568523
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.322832
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.527815
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,accuracy,0.699037
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.41786
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.378486
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.890599
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.57518
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.282252
+f2,lgbm,defecto,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.57518
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,F1_Alto,0.436356
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,F1_Bajo,0.823663
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,F1_Crítico,0.548306
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,F1_Moderado,0.413488
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,F1_macro,0.555453
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,accuracy,0.686354
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,error_ordinal,0.392589
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,recall_Alto,0.417166
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,recall_Bajo,0.83212
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,recall_Crítico,0.545406
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,recall_Moderado,0.405943
+f2,persistencia,baseline,no aplica,no aplica,cv_promedio,con_clase_t,recall_critico,0.545406
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Alto,0.841933
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Bajo,0.929141
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Crítico,0.916597
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Moderado,0.797536
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_macro,0.871302
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Alto,0.475602
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Bajo,0.830981
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Crítico,0.537302
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Moderado,0.434878
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,F1_macro,0.569691
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,accuracy,0.68601
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,error_ordinal,0.380355
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Alto,0.535551
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Bajo,0.792509
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Crítico,0.509325
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Moderado,0.457754
+f2,rf,ajustado,pesos,con,cv_promedio,con_clase_t,recall_critico,0.509325
+f2,rf,ajustado,pesos,con,cv_promedio,todas,AUC_Alto,0.844025
+f2,rf,ajustado,pesos,con,cv_promedio,todas,AUC_Bajo,0.926087
+f2,rf,ajustado,pesos,con,cv_promedio,todas,AUC_Crítico,0.918124
+f2,rf,ajustado,pesos,con,cv_promedio,todas,AUC_Moderado,0.792314
+f2,rf,ajustado,pesos,con,cv_promedio,todas,AUC_macro,0.870137
+f2,rf,ajustado,pesos,con,cv_promedio,todas,F1_Alto,0.435883
+f2,rf,ajustado,pesos,con,cv_promedio,todas,F1_Bajo,0.835387
+f2,rf,ajustado,pesos,con,cv_promedio,todas,F1_Crítico,0.566286
+f2,rf,ajustado,pesos,con,cv_promedio,todas,F1_Moderado,0.388563
+f2,rf,ajustado,pesos,con,cv_promedio,todas,F1_macro,0.55653
+f2,rf,ajustado,pesos,con,cv_promedio,todas,accuracy,0.70117
+f2,rf,ajustado,pesos,con,cv_promedio,todas,error_ordinal,0.384191
+f2,rf,ajustado,pesos,con,cv_promedio,todas,recall_Alto,0.473327
+f2,rf,ajustado,pesos,con,cv_promedio,todas,recall_Bajo,0.799933
+f2,rf,ajustado,pesos,con,cv_promedio,todas,recall_Crítico,0.571301
+f2,rf,ajustado,pesos,con,cv_promedio,todas,recall_Moderado,0.411337
+f2,rf,ajustado,pesos,con,cv_promedio,todas,recall_critico,0.571301
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Alto,0.839461
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Bajo,0.929271
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Crítico,0.916638
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Moderado,0.800327
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_macro,0.871424
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Alto,0.471837
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Bajo,0.828375
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Crítico,0.541218
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Moderado,0.436811
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_macro,0.56956
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,accuracy,0.685258
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,error_ordinal,0.380581
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Alto,0.520482
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Bajo,0.787136
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Crítico,0.516607
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Moderado,0.468254
+f2,rf,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_critico,0.516607
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,AUC_Alto,0.841532
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,AUC_Bajo,0.925676
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,AUC_Crítico,0.916713
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,AUC_Moderado,0.794649
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,AUC_macro,0.869643
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,F1_Alto,0.425034
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,F1_Bajo,0.832713
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,F1_Crítico,0.561169
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,F1_Moderado,0.384269
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,F1_macro,0.550796
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,accuracy,0.69841
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,error_ordinal,0.387694
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,recall_Alto,0.454597
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,recall_Bajo,0.794872
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,recall_Crítico,0.569224
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,recall_Moderado,0.413034
+f2,rf,ajustado,pesos,sin,cv_promedio,todas,recall_critico,0.569224
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.840049
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.92702
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.911944
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.802783
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.870449
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.455258
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.824879
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.549315
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.3554
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.546213
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.688918
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.408834
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.466464
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.885794
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.54302
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.299915
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.54302
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.842594
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.924313
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.91526
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.801697
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.870966
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.409398
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.839117
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.575996
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.311571
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.534021
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,accuracy,0.713186
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.402175
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.393602
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.898513
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.606589
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.250052
+f2,rf,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.606589
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Alto,0.839872
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Bajo,0.927289
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Crítico,0.912884
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Moderado,0.805216
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_macro,0.871315
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Alto,0.445872
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Bajo,0.825505
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Crítico,0.551082
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Moderado,0.361133
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_macro,0.545898
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,accuracy,0.689197
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,error_ordinal,0.409026
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Alto,0.449336
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Bajo,0.886868
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Crítico,0.548617
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Moderado,0.307359
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_critico,0.548617
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Alto,0.842074
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Bajo,0.924086
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Crítico,0.914986
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Moderado,0.802962
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_macro,0.871027
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Alto,0.397366
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Bajo,0.839385
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Crítico,0.572386
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Moderado,0.311947
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_macro,0.530271
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,accuracy,0.71236
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,error_ordinal,0.40484
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Alto,0.372975
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Bajo,0.899316
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Crítico,0.609301
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Moderado,0.252385
+f2,rf,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_critico,0.609301
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Alto,0.844048
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Bajo,0.929353
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Crítico,0.917128
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Moderado,0.793424
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,AUC_macro,0.870988
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,F1_Alto,0.496854
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,F1_Bajo,0.81479
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,F1_Crítico,0.535766
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,F1_Moderado,0.443143
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,F1_macro,0.572638
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,accuracy,0.677619
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,error_ordinal,0.384643
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,recall_Alto,0.560381
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,recall_Bajo,0.751017
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,recall_Crítico,0.505753
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,recall_Moderado,0.503905
+f2,rf,ajustado,smote,con,cv_promedio,con_clase_t,recall_critico,0.505753
+f2,rf,ajustado,smote,con,cv_promedio,todas,AUC_Alto,0.844798
+f2,rf,ajustado,smote,con,cv_promedio,todas,AUC_Bajo,0.926407
+f2,rf,ajustado,smote,con,cv_promedio,todas,AUC_Crítico,0.917505
+f2,rf,ajustado,smote,con,cv_promedio,todas,AUC_Moderado,0.786894
+f2,rf,ajustado,smote,con,cv_promedio,todas,AUC_macro,0.868901
+f2,rf,ajustado,smote,con,cv_promedio,todas,F1_Alto,0.44917
+f2,rf,ajustado,smote,con,cv_promedio,todas,F1_Bajo,0.822792
+f2,rf,ajustado,smote,con,cv_promedio,todas,F1_Crítico,0.554733
+f2,rf,ajustado,smote,con,cv_promedio,todas,F1_Moderado,0.392791
+f2,rf,ajustado,smote,con,cv_promedio,todas,F1_macro,0.554871
+f2,rf,ajustado,smote,con,cv_promedio,todas,accuracy,0.692503
+f2,rf,ajustado,smote,con,cv_promedio,todas,error_ordinal,0.389483
+f2,rf,ajustado,smote,con,cv_promedio,todas,recall_Alto,0.494662
+f2,rf,ajustado,smote,con,cv_promedio,todas,recall_Bajo,0.769525
+f2,rf,ajustado,smote,con,cv_promedio,todas,recall_Crítico,0.557182
+f2,rf,ajustado,smote,con,cv_promedio,todas,recall_Moderado,0.442701
+f2,rf,ajustado,smote,con,cv_promedio,todas,recall_critico,0.557182
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Alto,0.842192
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Bajo,0.929644
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Crítico,0.918197
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Moderado,0.795871
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_macro,0.871476
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Alto,0.491801
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Bajo,0.816613
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Crítico,0.532353
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Moderado,0.44639
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,F1_macro,0.571789
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,accuracy,0.679668
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,error_ordinal,0.38248
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Alto,0.553642
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Bajo,0.754353
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Crítico,0.502964
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Moderado,0.505695
+f2,rf,ajustado,smote,sin,cv_promedio,con_clase_t,recall_critico,0.502964
+f2,rf,ajustado,smote,sin,cv_promedio,todas,AUC_Alto,0.84209
+f2,rf,ajustado,smote,sin,cv_promedio,todas,AUC_Bajo,0.925861
+f2,rf,ajustado,smote,sin,cv_promedio,todas,AUC_Crítico,0.916245
+f2,rf,ajustado,smote,sin,cv_promedio,todas,AUC_Moderado,0.787708
+f2,rf,ajustado,smote,sin,cv_promedio,todas,AUC_macro,0.867976
+f2,rf,ajustado,smote,sin,cv_promedio,todas,F1_Alto,0.446995
+f2,rf,ajustado,smote,sin,cv_promedio,todas,F1_Bajo,0.822543
+f2,rf,ajustado,smote,sin,cv_promedio,todas,F1_Crítico,0.552359
+f2,rf,ajustado,smote,sin,cv_promedio,todas,F1_Moderado,0.392855
+f2,rf,ajustado,smote,sin,cv_promedio,todas,F1_macro,0.553688
+f2,rf,ajustado,smote,sin,cv_promedio,todas,accuracy,0.692568
+f2,rf,ajustado,smote,sin,cv_promedio,todas,error_ordinal,0.392451
+f2,rf,ajustado,smote,sin,cv_promedio,todas,recall_Alto,0.492213
+f2,rf,ajustado,smote,sin,cv_promedio,todas,recall_Bajo,0.76866
+f2,rf,ajustado,smote,sin,cv_promedio,todas,recall_Crítico,0.554546
+f2,rf,ajustado,smote,sin,cv_promedio,todas,recall_Moderado,0.443808
+f2,rf,ajustado,smote,sin,cv_promedio,todas,recall_critico,0.554546
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.816019
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.919355
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.901799
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.760553
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.849432
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.415112
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.810403
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.504355
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.292382
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.505563
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.660972
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.452178
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.434806
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.887893
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.481136
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.239328
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.481136
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.824411
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.920373
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.909509
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.770568
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.856215
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.38562
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.829907
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.5369
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.261671
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.503525
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,accuracy,0.694181
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.427289
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.389685
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.900282
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.534202
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.208542
+f2,rf,defecto,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.534202
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Alto,0.837894
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Bajo,0.923114
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Crítico,0.91842
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_Moderado,0.786539
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,AUC_macro,0.866492
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Alto,0.453548
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Bajo,0.808327
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Crítico,0.525823
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,F1_Moderado,0.425725
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,F1_macro,0.553356
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,accuracy,0.662823
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,error_ordinal,0.400042
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Alto,0.503169
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Bajo,0.749491
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Crítico,0.48341
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,recall_Moderado,0.504199
+f2,xgb,ajustado,pesos,con,cv_promedio,con_clase_t,recall_critico,0.48341
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,AUC_Alto,0.842262
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,AUC_Bajo,0.923248
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,AUC_Crítico,0.919537
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,AUC_Moderado,0.785495
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,AUC_macro,0.867635
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,F1_Alto,0.415227
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,F1_Bajo,0.820246
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,F1_Crítico,0.557217
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,F1_Moderado,0.385197
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,F1_macro,0.544472
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,accuracy,0.684775
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,error_ordinal,0.39733
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,recall_Alto,0.446703
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,recall_Bajo,0.768235
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,recall_Crítico,0.552748
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,recall_Moderado,0.454436
+f2,xgb,ajustado,pesos,con,cv_promedio,todas,recall_critico,0.552748
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Alto,0.836515
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Bajo,0.923473
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Crítico,0.917357
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_Moderado,0.790714
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,AUC_macro,0.867015
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Alto,0.459895
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Bajo,0.808699
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Crítico,0.529846
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_Moderado,0.430304
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,F1_macro,0.557186
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,accuracy,0.666063
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,error_ordinal,0.396939
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Alto,0.511079
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Bajo,0.750456
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Crítico,0.486793
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_Moderado,0.50653
+f2,xgb,ajustado,pesos,sin,cv_promedio,con_clase_t,recall_critico,0.486793
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,AUC_Alto,0.840497
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,AUC_Bajo,0.922995
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,AUC_Crítico,0.917771
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,AUC_Moderado,0.788828
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,AUC_macro,0.867523
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,F1_Alto,0.417788
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,F1_Bajo,0.819733
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,F1_Crítico,0.55999
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,F1_Moderado,0.385898
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,F1_macro,0.545852
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,accuracy,0.685069
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,error_ordinal,0.397251
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,recall_Alto,0.449675
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,recall_Bajo,0.767217
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,recall_Crítico,0.553726
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,recall_Moderado,0.455531
+f2,xgb,ajustado,pesos,sin,cv_promedio,todas,recall_critico,0.553726
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.833088
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.923255
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.916641
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.792784
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.866442
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.439821
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.814854
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.530378
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.358919
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.535993
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.675897
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.423975
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.45974
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.881785
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.483791
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.318626
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.483791
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.838931
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.923842
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.919707
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.794658
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.869285
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.399246
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.832199
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.560478
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.313374
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.526324
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,accuracy,0.703328
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.412847
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.395024
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.895911
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.559497
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.263575
+f2,xgb,ajustado,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.559497
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Alto,0.831843
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Bajo,0.923428
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Crítico,0.915466
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_Moderado,0.795012
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,AUC_macro,0.866438
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Alto,0.426115
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Bajo,0.814334
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Crítico,0.525153
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_Moderado,0.360311
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,F1_macro,0.531479
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,accuracy,0.674429
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,error_ordinal,0.427262
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Alto,0.435732
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Bajo,0.884959
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Crítico,0.482011
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_Moderado,0.321418
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,con_clase_t,recall_critico,0.482011
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Alto,0.837564
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Bajo,0.923513
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Crítico,0.919034
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_Moderado,0.796251
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,AUC_macro,0.869091
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Alto,0.392945
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Bajo,0.831688
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Crítico,0.564937
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_Moderado,0.311827
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,F1_macro,0.525349
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,accuracy,0.703376
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,error_ordinal,0.413147
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Alto,0.380962
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Bajo,0.898897
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Crítico,0.564612
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_Moderado,0.262992
+f2,xgb,ajustado,sin_remuestreo,sin,cv_promedio,todas,recall_critico,0.564612
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Alto,0.841266
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Bajo,0.922923
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Crítico,0.915587
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,AUC_Moderado,0.790952
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,AUC_macro,0.867682
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,F1_Alto,0.492581
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,F1_Bajo,0.808403
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,F1_Crítico,0.548069
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,F1_Moderado,0.437354
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,F1_macro,0.571602
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,accuracy,0.675812
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,error_ordinal,0.391037
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,recall_Alto,0.545955
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,recall_Bajo,0.755648
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,recall_Crítico,0.517568
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,recall_Moderado,0.496498
+f2,xgb,ajustado,smote,con,cv_promedio,con_clase_t,recall_critico,0.517568
+f2,xgb,ajustado,smote,con,cv_promedio,todas,AUC_Alto,0.843098
+f2,xgb,ajustado,smote,con,cv_promedio,todas,AUC_Bajo,0.922269
+f2,xgb,ajustado,smote,con,cv_promedio,todas,AUC_Crítico,0.916947
+f2,xgb,ajustado,smote,con,cv_promedio,todas,AUC_Moderado,0.788647
+f2,xgb,ajustado,smote,con,cv_promedio,todas,AUC_macro,0.86774
+f2,xgb,ajustado,smote,con,cv_promedio,todas,F1_Alto,0.444122
+f2,xgb,ajustado,smote,con,cv_promedio,todas,F1_Bajo,0.821585
+f2,xgb,ajustado,smote,con,cv_promedio,todas,F1_Crítico,0.567612
+f2,xgb,ajustado,smote,con,cv_promedio,todas,F1_Moderado,0.391073
+f2,xgb,ajustado,smote,con,cv_promedio,todas,F1_macro,0.556098
+f2,xgb,ajustado,smote,con,cv_promedio,todas,accuracy,0.695551
+f2,xgb,ajustado,smote,con,cv_promedio,todas,error_ordinal,0.394455
+f2,xgb,ajustado,smote,con,cv_promedio,todas,recall_Alto,0.475042
+f2,xgb,ajustado,smote,con,cv_promedio,todas,recall_Bajo,0.780163
+f2,xgb,ajustado,smote,con,cv_promedio,todas,recall_Crítico,0.584281
+f2,xgb,ajustado,smote,con,cv_promedio,todas,recall_Moderado,0.4288
+f2,xgb,ajustado,smote,con,cv_promedio,todas,recall_critico,0.584281
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Alto,0.840548
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Bajo,0.922644
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Crítico,0.915518
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_Moderado,0.792744
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,AUC_macro,0.867863
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Alto,0.478332
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Bajo,0.807423
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Crítico,0.545285
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,F1_Moderado,0.435485
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,F1_macro,0.566632
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,accuracy,0.671754
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,error_ordinal,0.394563
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Alto,0.524614
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Bajo,0.753013
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Crítico,0.51337
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,recall_Moderado,0.50294
+f2,xgb,ajustado,smote,sin,cv_promedio,con_clase_t,recall_critico,0.51337
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,AUC_Alto,0.842164
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,AUC_Bajo,0.921956
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,AUC_Crítico,0.915837
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,AUC_Moderado,0.789356
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,AUC_macro,0.867328
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,F1_Alto,0.430353
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,F1_Bajo,0.820765
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,F1_Crítico,0.563384
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,F1_Moderado,0.385757
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,F1_macro,0.550065
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,accuracy,0.690995
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,error_ordinal,0.398454
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,recall_Alto,0.451652
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,recall_Bajo,0.777292
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,recall_Crítico,0.580223
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,recall_Moderado,0.433122
+f2,xgb,ajustado,smote,sin,cv_promedio,todas,recall_critico,0.580223
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Alto,0.812968
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Bajo,0.915199
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Crítico,0.909449
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_Moderado,0.769909
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,AUC_macro,0.851881
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Alto,0.402442
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Bajo,0.805597
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Crítico,0.521228
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_Moderado,0.33216
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,F1_macro,0.515357
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,accuracy,0.656003
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,error_ordinal,0.455677
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Alto,0.411078
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Bajo,0.872553
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Crítico,0.469329
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_Moderado,0.307737
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,con_clase_t,recall_critico,0.469329
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Alto,0.820674
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Bajo,0.916487
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Crítico,0.91463
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_Moderado,0.775488
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,AUC_macro,0.85682
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Alto,0.368034
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Bajo,0.824395
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Crítico,0.543669
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,F1_Moderado,0.297881
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,F1_macro,0.508495
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,accuracy,0.687154
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,error_ordinal,0.435603
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Alto,0.364276
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Bajo,0.888308
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Crítico,0.520836
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,recall_Moderado,0.264805
+f2,xgb,defecto,sin_remuestreo,con,cv_promedio,todas,recall_critico,0.520836
+f1_30d,arbol,baseline,no aplica,sin,cv_desviacion,todas,MAE,11.1345
+f1_30d,arbol,baseline,no aplica,sin,cv_desviacion,todas,MAE_con_focos,11.9691
+f1_30d,arbol,baseline,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0849875
+f1_30d,arbol,baseline,no aplica,sin,cv_desviacion,todas,RMSE,48.8259
+f1_30d,arbol,baseline,no aplica,sin,cv_desviacion,todas,sesgo,4.16405
+f1_30d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,MAE,9.05312
+f1_30d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.64744
+f1_30d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0475623
+f1_30d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,RMSE,46.7067
+f1_30d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,sesgo,5.41357
+f1_30d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,MAE,9.0401
+f1_30d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,9.63021
+f1_30d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0503592
+f1_30d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,47.0932
+f1_30d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,5.11775
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE,9.05312
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.64744
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,R2_log1p,0.0475623
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,RMSE,46.7067
+f1_30d,lgbm,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,sesgo,5.41357
+f1_30d,lgbm,defecto,no aplica,con,cv_desviacion,todas,MAE,9.19265
+f1_30d,lgbm,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.81199
+f1_30d,lgbm,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0507479
+f1_30d,lgbm,defecto,no aplica,con,cv_desviacion,todas,RMSE,46.1234
+f1_30d,lgbm,defecto,no aplica,con,cv_desviacion,todas,sesgo,5.26883
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,MAE,13.8807
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,MAE_con_focos,15.1602
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,R2_log1p,0.0485716
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,RMSE,60.7431
+f1_30d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,sesgo,0.620239
+f1_30d,rf,ajustado,no aplica,con,cv_desviacion,todas,MAE,9.29462
+f1_30d,rf,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.89756
+f1_30d,rf,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0578883
+f1_30d,rf,ajustado,no aplica,con,cv_desviacion,todas,RMSE,46.0585
+f1_30d,rf,ajustado,no aplica,con,cv_desviacion,todas,sesgo,5.99855
+f1_30d,rf,ajustado,no aplica,sin,cv_desviacion,todas,MAE,9.35509
+f1_30d,rf,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,9.95596
+f1_30d,rf,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0568007
+f1_30d,rf,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,46.4836
+f1_30d,rf,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,5.99212
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE,9.29462
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.89756
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,R2_log1p,0.0578883
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,RMSE,46.0585
+f1_30d,rf,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,sesgo,5.99855
+f1_30d,rf,defecto,no aplica,con,cv_desviacion,todas,MAE,9.30146
+f1_30d,rf,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.95287
+f1_30d,rf,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0657308
+f1_30d,rf,defecto,no aplica,con,cv_desviacion,todas,RMSE,44.9724
+f1_30d,rf,defecto,no aplica,con,cv_desviacion,todas,sesgo,5.39207
+f1_30d,xgb,ajustado,no aplica,con,cv_desviacion,todas,MAE,8.90373
+f1_30d,xgb,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.45323
+f1_30d,xgb,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0475516
+f1_30d,xgb,ajustado,no aplica,con,cv_desviacion,todas,RMSE,45.143
+f1_30d,xgb,ajustado,no aplica,con,cv_desviacion,todas,sesgo,5.10481
+f1_30d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,MAE,9.0947
+f1_30d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,9.688
+f1_30d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0500581
+f1_30d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,46.4202
+f1_30d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,4.94896
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE,8.90373
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,MAE_con_focos,9.45323
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,R2_log1p,0.0475516
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,RMSE,45.143
+f1_30d,xgb,ajustado_con_parametros_de_7d,no aplica,con,cv_desviacion,todas,sesgo,5.10481
+f1_30d,xgb,defecto,no aplica,con,cv_desviacion,todas,MAE,10.136
+f1_30d,xgb,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,10.9687
+f1_30d,xgb,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0487591
+f1_30d,xgb,defecto,no aplica,con,cv_desviacion,todas,RMSE,51.5642
+f1_30d,xgb,defecto,no aplica,con,cv_desviacion,todas,sesgo,3.39626
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,MAE,2.76698
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,3.87361
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0767237
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,RMSE,13.8833
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,precision_alerta,0.0242212
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,recall_alerta,0.10709
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,sesgo,1.6063
+f1_7d,lgbm,ajustado,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.0107353
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,MAE,2.78554
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,3.90396
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0798128
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,13.8575
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,precision_alerta,0.0213677
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,recall_alerta,0.100069
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,1.50672
+f1_7d,lgbm,ajustado,no aplica,sin,cv_desviacion,todas,tasa_falsas_alarmas,0.0106917
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,MAE,2.80504
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,3.94388
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0799909
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,RMSE,13.3288
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,precision_alerta,0.0275128
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,recall_alerta,0.109405
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,sesgo,1.55208
+f1_7d,lgbm,defecto,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.0115547
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,MAE,3.13442
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,MAE_con_focos,4.54054
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,R2_log1p,0.0727015
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,RMSE,15.049
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,precision_alerta,0.0289731
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,recall_alerta,0.0760885
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,sesgo,2.00992
+f1_7d,lineal,baseline,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.011751
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,MAE,3.13027
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,MAE_con_focos,4.28306
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,R2_log1p,0.113231
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,RMSE,11.899
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,precision_alerta,0.0652813
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,recall_alerta,0.0828032
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,sesgo,0.0252769
+f1_7d,persistencia,baseline,no aplica,no aplica,cv_desviacion,todas,tasa_falsas_alarmas,0.0208807
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,MAE,2.81211
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,3.95363
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0772662
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,RMSE,13.5006
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,precision_alerta,0.0261426
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,recall_alerta,0.0872034
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,sesgo,1.71481
+f1_7d,rf,ajustado,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.00983363
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,MAE,2.81302
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,3.95216
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0769867
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,13.535
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,precision_alerta,0.0297847
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,recall_alerta,0.0885001
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,1.69444
+f1_7d,rf,ajustado,no aplica,sin,cv_desviacion,todas,tasa_falsas_alarmas,0.00967796
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,MAE,2.82836
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,3.97621
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0871899
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,RMSE,13.4291
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,precision_alerta,0.0387228
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,recall_alerta,0.082725
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,sesgo,1.67576
+f1_7d,rf,defecto,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.00924563
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,MAE,2.80297
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,MAE_con_focos,3.94584
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,R2_log1p,0.0756942
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,RMSE,13.9968
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,precision_alerta,0.0199962
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,recall_alerta,0.117757
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,sesgo,1.53692
+f1_7d,xgb,ajustado,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.0111937
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,MAE,2.83283
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,MAE_con_focos,4.01523
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,R2_log1p,0.0759961
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,RMSE,14.3354
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,precision_alerta,0.0164987
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,recall_alerta,0.104253
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,sesgo,1.53163
+f1_7d,xgb,ajustado,no aplica,sin,cv_desviacion,todas,tasa_falsas_alarmas,0.011246
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,MAE,2.9793
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,MAE_con_focos,4.21641
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,R2_log1p,0.0755037
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,RMSE,14.3626
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,precision_alerta,0.0204071
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,recall_alerta,0.108596
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,sesgo,1.30532
+f1_7d,xgb,defecto,no aplica,con,cv_desviacion,todas,tasa_falsas_alarmas,0.0138358
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Alto,0.0358609
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0289838
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0203859
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0582286
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_macro,0.0286192
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Alto,0.0608552
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Bajo,0.099588
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Crítico,0.236482
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Moderado,0.0570022
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_macro,0.0655189
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,accuracy,0.0564645
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,error_ordinal,0.0682022
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Alto,0.0652458
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Bajo,0.130715
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Crítico,0.262104
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Moderado,0.0841425
+f2,lgbm,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_critico,0.262104
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,AUC_Alto,0.0518447
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,AUC_Bajo,0.0330466
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,AUC_Crítico,0.015285
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,AUC_Moderado,0.0572422
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,AUC_macro,0.0349033
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,F1_Alto,0.0580026
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,F1_Bajo,0.106417
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,F1_Crítico,0.206567
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,F1_Moderado,0.057053
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,F1_macro,0.0572444
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,accuracy,0.083267
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,error_ordinal,0.108636
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,recall_Alto,0.0579048
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,recall_Bajo,0.13374
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,recall_Crítico,0.21794
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,recall_Moderado,0.0609885
+f2,lgbm,ajustado,pesos,con,cv_desviacion,todas,recall_critico,0.21794
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0364278
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0290485
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0217635
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0572557
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_macro,0.0283326
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Alto,0.0607827
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Bajo,0.0983749
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Crítico,0.266217
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0541057
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_macro,0.0712889
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,accuracy,0.0555212
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,error_ordinal,0.0659075
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Alto,0.0920975
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Bajo,0.132133
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Crítico,0.28312
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0841179
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_critico,0.28312
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,AUC_Alto,0.0536702
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,AUC_Bajo,0.0330285
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,AUC_Crítico,0.0165638
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,AUC_Moderado,0.0558813
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,AUC_macro,0.0347426
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,F1_Alto,0.0640144
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,F1_Bajo,0.106306
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,F1_Crítico,0.217309
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,F1_Moderado,0.0505378
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,F1_macro,0.0578193
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,accuracy,0.0819876
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,error_ordinal,0.105986
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,recall_Alto,0.0828019
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,recall_Bajo,0.134569
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,recall_Crítico,0.224862
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,recall_Moderado,0.0556732
+f2,lgbm,ajustado,pesos,sin,cv_desviacion,todas,recall_critico,0.224862
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.045385
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0318746
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0142022
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0569659
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0308239
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.0570518
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.112792
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.206605
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.071514
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.0399175
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.0741372
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.116005
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.088803
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0567371
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.216024
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.103348
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.216024
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.0594828
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.0340215
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0130064
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0623273
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0396306
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0620349
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.108068
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.191159
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0558022
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0398188
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.093892
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.139718
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.0823806
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0535846
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.174387
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.0714155
+f2,lgbm,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.174387
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0488267
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0326563
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0174416
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0584121
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_macro,0.032043
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Alto,0.0615613
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Bajo,0.112801
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Crítico,0.228761
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0774624
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_macro,0.0480533
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,accuracy,0.0751393
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,error_ordinal,0.117344
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Alto,0.100461
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Bajo,0.0585777
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Crítico,0.23387
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Moderado,0.108166
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_critico,0.23387
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Alto,0.062974
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Bajo,0.0348192
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Crítico,0.0141462
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Moderado,0.0644764
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_macro,0.0410402
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Alto,0.0637651
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Bajo,0.11012
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Crítico,0.198941
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Moderado,0.0625445
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_macro,0.0436665
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,accuracy,0.0970811
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,error_ordinal,0.146816
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Alto,0.0938343
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Bajo,0.0574132
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Crítico,0.187981
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Moderado,0.0774642
+f2,lgbm,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_critico,0.187981
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Alto,0.0378717
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0279499
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0172556
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0542006
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_macro,0.0276934
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Alto,0.0592481
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Bajo,0.0950968
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Crítico,0.223759
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Moderado,0.0445688
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,F1_macro,0.0562886
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,accuracy,0.0594735
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,error_ordinal,0.071643
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Alto,0.0873702
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Bajo,0.0990314
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Crítico,0.238123
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Moderado,0.06325
+f2,lgbm,ajustado,smote,con,cv_desviacion,con_clase_t,recall_critico,0.238123
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,AUC_Alto,0.0525727
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,AUC_Bajo,0.0310334
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,AUC_Crítico,0.0133536
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,AUC_Moderado,0.0541581
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,AUC_macro,0.0347287
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,F1_Alto,0.0595093
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,F1_Bajo,0.102447
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,F1_Crítico,0.202081
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,F1_Moderado,0.0382633
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,F1_macro,0.0488551
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,accuracy,0.0867894
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,error_ordinal,0.111705
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,recall_Alto,0.075985
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,recall_Bajo,0.104469
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,recall_Crítico,0.200069
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,recall_Moderado,0.0343391
+f2,lgbm,ajustado,smote,con,cv_desviacion,todas,recall_critico,0.200069
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0410489
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0294529
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0191792
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0524333
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_macro,0.0281253
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Alto,0.0509585
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Bajo,0.0983085
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Crítico,0.244464
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0428955
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_macro,0.0567093
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,accuracy,0.0599156
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,error_ordinal,0.0729088
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Alto,0.0523543
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Bajo,0.104278
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Crítico,0.264439
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0646308
+f2,lgbm,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_critico,0.264439
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,AUC_Alto,0.0567253
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,AUC_Bajo,0.032075
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,AUC_Crítico,0.0155948
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,AUC_Moderado,0.0538694
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,AUC_macro,0.0354931
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,F1_Alto,0.0531101
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,F1_Bajo,0.103876
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,F1_Crítico,0.199076
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,F1_Moderado,0.0403473
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,F1_macro,0.0476484
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,accuracy,0.0879628
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,error_ordinal,0.117461
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,recall_Alto,0.047908
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,recall_Bajo,0.106178
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,recall_Crítico,0.202501
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,recall_Moderado,0.0437589
+f2,lgbm,ajustado,smote,sin,cv_desviacion,todas,recall_critico,0.202501
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.0441763
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0295265
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0136599
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0511969
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0287146
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.056638
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.106148
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.174102
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.0683822
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.0364838
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.071844
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.103128
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.0785156
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0618962
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.16305
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.0910884
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.16305
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.0590483
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.0325753
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0118168
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0547651
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0371164
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0594768
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.107081
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.175618
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0484187
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0386292
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.0953087
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.133695
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.0749806
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0593913
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.1327
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.0566097
+f2,lgbm,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.1327
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,F1_Alto,0.0796137
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,F1_Bajo,0.092699
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,F1_Crítico,0.239755
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,F1_Moderado,0.0163857
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,F1_macro,0.0599199
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,accuracy,0.0644603
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,error_ordinal,0.0720177
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,recall_Alto,0.0991934
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,recall_Bajo,0.117668
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,recall_Crítico,0.260537
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,recall_Moderado,0.0125525
+f2,persistencia,baseline,no aplica,no aplica,cv_desviacion,con_clase_t,recall_critico,0.260537
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Alto,0.0383625
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0251001
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Crítico,0.021203
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0516349
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_macro,0.0270087
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Alto,0.0545709
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Bajo,0.0907882
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Crítico,0.246858
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Moderado,0.0489019
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_macro,0.0649694
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,accuracy,0.0595977
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,error_ordinal,0.0721543
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Alto,0.0635987
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Bajo,0.116986
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Crítico,0.278227
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Moderado,0.0703983
+f2,rf,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_critico,0.278227
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,AUC_Alto,0.0553217
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,AUC_Bajo,0.0298172
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,AUC_Crítico,0.0161692
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,AUC_Moderado,0.0540124
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,AUC_macro,0.035214
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,F1_Alto,0.0568992
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,F1_Bajo,0.101007
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,F1_Crítico,0.199504
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,F1_Moderado,0.0510146
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,F1_macro,0.0539102
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,accuracy,0.0859386
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,error_ordinal,0.114214
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,recall_Alto,0.0680306
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,recall_Bajo,0.121683
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,recall_Crítico,0.216796
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,recall_Moderado,0.0497424
+f2,rf,ajustado,pesos,con,cv_desviacion,todas,recall_critico,0.216796
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0377167
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.02507
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0207309
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0506512
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_macro,0.0264348
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Alto,0.0610441
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Bajo,0.0914775
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Crítico,0.250742
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0472162
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_macro,0.0663808
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,accuracy,0.0572366
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,error_ordinal,0.069263
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Alto,0.0629026
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Bajo,0.11969
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Crítico,0.282705
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0648552
+f2,rf,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_critico,0.282705
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,AUC_Alto,0.0550083
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,AUC_Bajo,0.029636
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,AUC_Crítico,0.0164675
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,AUC_Moderado,0.0531832
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,AUC_macro,0.0346627
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,F1_Alto,0.0671649
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,F1_Bajo,0.102322
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,F1_Crítico,0.218984
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,F1_Moderado,0.053911
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,F1_macro,0.0613032
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,accuracy,0.0829934
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,error_ordinal,0.109886
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,recall_Alto,0.0696291
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,recall_Bajo,0.123801
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,recall_Crítico,0.237092
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,recall_Moderado,0.0528345
+f2,rf,ajustado,pesos,sin,cv_desviacion,todas,recall_critico,0.237092
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.0401051
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0259305
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0247076
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0441569
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0265317
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.0607295
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.0973511
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.240161
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.0616263
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.0560666
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.0646067
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.096712
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.0702938
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0584401
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.274106
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.0859974
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.274106
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.0576944
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.0316303
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0184819
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0513742
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0370834
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0597264
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.100318
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.200018
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0504832
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0481957
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.0904383
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.13314
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.067195
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0582121
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.210361
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.058087
+f2,rf,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.210361
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Alto,0.040105
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0259822
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0222979
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0452135
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_macro,0.0263592
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Alto,0.0671102
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Bajo,0.0977712
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Crítico,0.246256
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0676492
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_macro,0.060637
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,accuracy,0.0649923
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,error_ordinal,0.0983788
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Alto,0.0669718
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Bajo,0.0572635
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Crítico,0.27646
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0899748
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_critico,0.27646
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Alto,0.0576111
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Bajo,0.0312058
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Crítico,0.0171163
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Moderado,0.0519007
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_macro,0.0366167
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Alto,0.0688912
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Bajo,0.100231
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Crítico,0.208504
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Moderado,0.0563069
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_macro,0.0538254
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,accuracy,0.089791
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,error_ordinal,0.132209
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Alto,0.0688966
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Bajo,0.0573374
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Crítico,0.214946
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Moderado,0.0631407
+f2,rf,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_critico,0.214946
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Alto,0.0404934
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0244494
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0182586
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0570885
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_macro,0.0280685
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Alto,0.046423
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Bajo,0.0961226
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Crítico,0.24739
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Moderado,0.0533328
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,F1_macro,0.0658647
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,accuracy,0.063826
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,error_ordinal,0.0750959
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Alto,0.0361813
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Bajo,0.129898
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Crítico,0.284442
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Moderado,0.0605556
+f2,rf,ajustado,smote,con,cv_desviacion,con_clase_t,recall_critico,0.284442
+f2,rf,ajustado,smote,con,cv_desviacion,todas,AUC_Alto,0.0557771
+f2,rf,ajustado,smote,con,cv_desviacion,todas,AUC_Bajo,0.0287803
+f2,rf,ajustado,smote,con,cv_desviacion,todas,AUC_Crítico,0.015016
+f2,rf,ajustado,smote,con,cv_desviacion,todas,AUC_Moderado,0.0569678
+f2,rf,ajustado,smote,con,cv_desviacion,todas,AUC_macro,0.0353402
+f2,rf,ajustado,smote,con,cv_desviacion,todas,F1_Alto,0.0519186
+f2,rf,ajustado,smote,con,cv_desviacion,todas,F1_Bajo,0.107484
+f2,rf,ajustado,smote,con,cv_desviacion,todas,F1_Crítico,0.220961
+f2,rf,ajustado,smote,con,cv_desviacion,todas,F1_Moderado,0.0546807
+f2,rf,ajustado,smote,con,cv_desviacion,todas,F1_macro,0.0588706
+f2,rf,ajustado,smote,con,cv_desviacion,todas,accuracy,0.0870481
+f2,rf,ajustado,smote,con,cv_desviacion,todas,error_ordinal,0.11106
+f2,rf,ajustado,smote,con,cv_desviacion,todas,recall_Alto,0.0527743
+f2,rf,ajustado,smote,con,cv_desviacion,todas,recall_Bajo,0.134013
+f2,rf,ajustado,smote,con,cv_desviacion,todas,recall_Crítico,0.242521
+f2,rf,ajustado,smote,con,cv_desviacion,todas,recall_Moderado,0.0430296
+f2,rf,ajustado,smote,con,cv_desviacion,todas,recall_critico,0.242521
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0400637
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0247179
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.018811
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0557713
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_macro,0.0274966
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Alto,0.0499126
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Bajo,0.0984081
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Crítico,0.254559
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0453138
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_macro,0.0624834
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,accuracy,0.0618782
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,error_ordinal,0.0714768
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Alto,0.053887
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Bajo,0.132666
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Crítico,0.289546
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0537551
+f2,rf,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_critico,0.289546
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,AUC_Alto,0.055952
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,AUC_Bajo,0.0290234
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,AUC_Crítico,0.0159176
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,AUC_Moderado,0.0560157
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,AUC_macro,0.0347553
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,F1_Alto,0.0551706
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,F1_Bajo,0.107819
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,F1_Crítico,0.226458
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,F1_Moderado,0.0439287
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,F1_macro,0.0578178
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,accuracy,0.0854044
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,error_ordinal,0.10881
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,recall_Alto,0.0607748
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,recall_Bajo,0.134031
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,recall_Crítico,0.246453
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,recall_Moderado,0.0365948
+f2,rf,ajustado,smote,sin,cv_desviacion,todas,recall_critico,0.246453
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.0536635
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0321327
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0240453
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0537942
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0324305
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.0516752
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.110377
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.234789
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.0392311
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.040178
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.069094
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.101731
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.0934223
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0562817
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.253346
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.0478585
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.253346
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.0709554
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.0360753
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0187362
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0584067
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0427273
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0536472
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.109165
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.206934
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0243093
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0357552
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.0953962
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.139993
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.0924093
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0562453
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.213452
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.0313114
+f2,rf,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.213452
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Alto,0.0345321
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0298415
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0174857
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0549857
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,AUC_macro,0.0271346
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Alto,0.0659749
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Bajo,0.100332
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Crítico,0.249726
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_Moderado,0.058801
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,F1_macro,0.0678387
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,accuracy,0.0522006
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,error_ordinal,0.0615298
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Alto,0.0854962
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Bajo,0.123432
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Crítico,0.267222
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_Moderado,0.0841974
+f2,xgb,ajustado,pesos,con,cv_desviacion,con_clase_t,recall_critico,0.267222
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,AUC_Alto,0.0505378
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,AUC_Bajo,0.0331479
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,AUC_Crítico,0.0134878
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,AUC_Moderado,0.053613
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,AUC_macro,0.0333106
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,F1_Alto,0.0696459
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,F1_Bajo,0.107835
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,F1_Crítico,0.217819
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,F1_Moderado,0.0556898
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,F1_macro,0.0602206
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,accuracy,0.078998
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,error_ordinal,0.0996002
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,recall_Alto,0.0828749
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,recall_Bajo,0.129279
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,recall_Crítico,0.221933
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,recall_Moderado,0.0592841
+f2,xgb,ajustado,pesos,con,cv_desviacion,todas,recall_critico,0.221933
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Alto,0.036737
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0295222
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0180772
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0538629
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,AUC_macro,0.0272052
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Alto,0.0572874
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Bajo,0.102263
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Crítico,0.250766
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0466291
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,F1_macro,0.0634147
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,accuracy,0.0551427
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,error_ordinal,0.0659122
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Alto,0.081891
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Bajo,0.128527
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Crítico,0.270952
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0714452
+f2,xgb,ajustado,pesos,sin,cv_desviacion,con_clase_t,recall_critico,0.270952
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,AUC_Alto,0.053269
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,AUC_Bajo,0.0328546
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,AUC_Crítico,0.0142821
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,AUC_Moderado,0.052719
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,AUC_macro,0.0337689
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,F1_Alto,0.0634019
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,F1_Bajo,0.108259
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,F1_Crítico,0.21409
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,F1_Moderado,0.04778
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,F1_macro,0.0554238
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,accuracy,0.0804731
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,error_ordinal,0.102894
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,recall_Alto,0.0823977
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,recall_Bajo,0.131204
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,recall_Crítico,0.221131
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,recall_Moderado,0.0488822
+f2,xgb,ajustado,pesos,sin,cv_desviacion,todas,recall_critico,0.221131
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.0418746
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0296808
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.0160384
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0516896
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0283531
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.0529123
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.11061
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.227278
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.0586684
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.0423326
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.0670653
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.101316
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.0609093
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0568934
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.240481
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.0866256
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.240481
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.057287
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.032888
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0138423
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0574834
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0374387
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0587722
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.108829
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.203858
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0427579
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0412757
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.0904514
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.132548
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.0610651
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0563841
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.187207
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.0563211
+f2,xgb,ajustado,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.187207
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0449335
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0303126
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0175396
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0496024
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,AUC_macro,0.0281085
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Alto,0.0602581
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Bajo,0.108271
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Crítico,0.235263
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0468698
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,F1_macro,0.0423226
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,accuracy,0.0655061
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,error_ordinal,0.101588
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Alto,0.0878596
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Bajo,0.0532026
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Crítico,0.24994
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0726268
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,con_clase_t,recall_critico,0.24994
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Alto,0.0604065
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Bajo,0.0332731
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Crítico,0.0125279
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_Moderado,0.0563303
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,AUC_macro,0.0375165
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Alto,0.0578875
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Bajo,0.107371
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Crítico,0.196902
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_Moderado,0.0322919
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,F1_macro,0.0360467
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,accuracy,0.0913698
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,error_ordinal,0.135659
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Alto,0.0784918
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Bajo,0.0534071
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Crítico,0.187239
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_Moderado,0.0467515
+f2,xgb,ajustado,sin_remuestreo,sin,cv_desviacion,todas,recall_critico,0.187239
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Alto,0.0380772
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0280859
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Crítico,0.020528
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0566344
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,AUC_macro,0.0286832
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Alto,0.0458087
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Bajo,0.0990687
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Crítico,0.242926
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,F1_Moderado,0.0472364
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,F1_macro,0.0624656
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,accuracy,0.0578951
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,error_ordinal,0.0704877
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Alto,0.0495643
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Bajo,0.116372
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Crítico,0.276498
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,recall_Moderado,0.0600007
+f2,xgb,ajustado,smote,con,cv_desviacion,con_clase_t,recall_critico,0.276498
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,AUC_Alto,0.0527526
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,AUC_Bajo,0.0314988
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,AUC_Crítico,0.0150585
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,AUC_Moderado,0.0568367
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,AUC_macro,0.0352631
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,F1_Alto,0.0505543
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,F1_Bajo,0.10839
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,F1_Crítico,0.21496
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,F1_Moderado,0.0469627
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,F1_macro,0.0549329
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,accuracy,0.0831355
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,error_ordinal,0.111526
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,recall_Alto,0.0619471
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,recall_Bajo,0.123417
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,recall_Crítico,0.23513
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,recall_Moderado,0.0370933
+f2,xgb,ajustado,smote,con,cv_desviacion,todas,recall_critico,0.23513
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Alto,0.0398045
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Bajo,0.0290846
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Crítico,0.0227164
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_Moderado,0.0556628
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,AUC_macro,0.0284059
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Alto,0.0481206
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Bajo,0.102332
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Crítico,0.237787
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0470815
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,F1_macro,0.0596851
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,accuracy,0.0591473
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,error_ordinal,0.0706774
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Alto,0.0510079
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Bajo,0.120058
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Crítico,0.268506
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0592832
+f2,xgb,ajustado,smote,sin,cv_desviacion,con_clase_t,recall_critico,0.268506
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,AUC_Alto,0.0549894
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,AUC_Bajo,0.0319167
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,AUC_Crítico,0.0168926
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,AUC_Moderado,0.0551707
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,AUC_macro,0.0347007
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,F1_Alto,0.051289
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,F1_Bajo,0.109911
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,F1_Crítico,0.214072
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,F1_Moderado,0.0466448
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,F1_macro,0.0546156
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,accuracy,0.0850626
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,error_ordinal,0.111628
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,recall_Alto,0.0551252
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,recall_Bajo,0.125821
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,recall_Crítico,0.228211
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,recall_Moderado,0.0346965
+f2,xgb,ajustado,smote,sin,cv_desviacion,todas,recall_critico,0.228211
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Alto,0.046646
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Bajo,0.0338468
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Crítico,0.00897771
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_Moderado,0.0571633
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,AUC_macro,0.0316813
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Alto,0.0522788
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Bajo,0.116249
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Crítico,0.197819
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_Moderado,0.0653565
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,F1_macro,0.0392893
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,accuracy,0.0718347
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,error_ordinal,0.107844
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Alto,0.0803919
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Bajo,0.0599987
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Crítico,0.195995
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_Moderado,0.0825526
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,con_clase_t,recall_critico,0.195995
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Alto,0.0589089
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Bajo,0.0350619
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Crítico,0.0116583
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_Moderado,0.0608485
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,AUC_macro,0.0397162
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Alto,0.0584017
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Bajo,0.112096
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Crítico,0.190373
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_Moderado,0.0538353
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,F1_macro,0.0433158
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,accuracy,0.0945219
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,error_ordinal,0.138452
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Alto,0.0675523
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Bajo,0.0559339
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Crítico,0.172009
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_Moderado,0.0534654
+f2,xgb,defecto,sin_remuestreo,con,cv_desviacion,todas,recall_critico,0.172009
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,MAE,1.35732
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,RMSE,5.34562
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,4.23999
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.522348
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,sesgo,-0.319552
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,recall_alerta,0.368421
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,precision_alerta,0.665109
+f1_7d,rf,defecto,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00810281
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,MAE,1.30384
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,RMSE,4.9756
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,4.20776
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.552417
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.421702
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,recall_alerta,0.362381
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,precision_alerta,0.690789
+f1_7d,rf,ajustado,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00708525
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,MAE,1.29056
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,RMSE,4.88391
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,4.19776
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.555545
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-0.456118
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,recall_alerta,0.357204
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,precision_alerta,0.688852
+f1_7d,rf,ajustado,no aplica,sin,prueba_2025,todas,tasa_falsas_alarmas,0.00704756
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,MAE,1.36446
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,RMSE,6.02419
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,4.41205
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.530526
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,sesgo,-0.230563
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,recall_alerta,0.395168
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,precision_alerta,0.636996
+f1_7d,xgb,defecto,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00983644
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,MAE,1.30306
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,RMSE,5.22315
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,4.22313
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.557692
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.323845
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,recall_alerta,0.3805
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,precision_alerta,0.684783
+f1_7d,xgb,ajustado,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00765056
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,MAE,1.28627
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,RMSE,5.06184
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,4.18409
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.560969
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-0.374007
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,recall_alerta,0.371009
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,precision_alerta,0.686901
+f1_7d,xgb,ajustado,no aplica,sin,prueba_2025,todas,tasa_falsas_alarmas,0.00738675
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,MAE,1.28991
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,RMSE,5.01023
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,4.21123
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.555409
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,sesgo,-0.358898
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,recall_alerta,0.372735
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,precision_alerta,0.676056
+f1_7d,lgbm,defecto,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00780131
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,MAE,1.2801
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,RMSE,4.89598
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,4.16304
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.561735
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.361813
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,recall_alerta,0.383952
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,precision_alerta,0.704114
+f1_7d,lgbm,ajustado,no aplica,con,prueba_2025,todas,tasa_falsas_alarmas,0.00704756
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,MAE,1.27004
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,RMSE,4.93635
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,4.15169
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.564948
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-0.401099
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,recall_alerta,0.371009
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,precision_alerta,0.700326
+f1_7d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,tasa_falsas_alarmas,0.0069345
+f1_30d,rf,defecto,no aplica,con,prueba_2025,todas,MAE,4.56627
+f1_30d,rf,defecto,no aplica,con,prueba_2025,todas,RMSE,18.1409
+f1_30d,rf,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,8.97383
+f1_30d,rf,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.640678
+f1_30d,rf,defecto,no aplica,con,prueba_2025,todas,sesgo,-0.463523
+f1_30d,rf,ajustado,no aplica,con,prueba_2025,todas,MAE,4.41034
+f1_30d,rf,ajustado,no aplica,con,prueba_2025,todas,RMSE,16.9405
+f1_30d,rf,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,8.73429
+f1_30d,rf,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.659714
+f1_30d,rf,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.939038
+f1_30d,rf,ajustado,no aplica,sin,prueba_2025,todas,MAE,4.36137
+f1_30d,rf,ajustado,no aplica,sin,prueba_2025,todas,RMSE,16.3773
+f1_30d,rf,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,8.65818
+f1_30d,rf,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.662785
+f1_30d,rf,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-1.10679
+f1_30d,xgb,defecto,no aplica,con,prueba_2025,todas,MAE,4.82472
+f1_30d,xgb,defecto,no aplica,con,prueba_2025,todas,RMSE,21.2851
+f1_30d,xgb,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,9.65043
+f1_30d,xgb,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.654594
+f1_30d,xgb,defecto,no aplica,con,prueba_2025,todas,sesgo,0.295073
+f1_30d,xgb,ajustado,no aplica,con,prueba_2025,todas,MAE,4.61616
+f1_30d,xgb,ajustado,no aplica,con,prueba_2025,todas,RMSE,20.2877
+f1_30d,xgb,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,9.22654
+f1_30d,xgb,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.672747
+f1_30d,xgb,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.0326531
+f1_30d,xgb,ajustado,no aplica,sin,prueba_2025,todas,MAE,4.36599
+f1_30d,xgb,ajustado,no aplica,sin,prueba_2025,todas,RMSE,18.1832
+f1_30d,xgb,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,8.70738
+f1_30d,xgb,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.679921
+f1_30d,xgb,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-0.477057
+f1_30d,lgbm,defecto,no aplica,con,prueba_2025,todas,MAE,4.47929
+f1_30d,lgbm,defecto,no aplica,con,prueba_2025,todas,RMSE,18.493
+f1_30d,lgbm,defecto,no aplica,con,prueba_2025,todas,MAE_con_focos,8.9664
+f1_30d,lgbm,defecto,no aplica,con,prueba_2025,todas,R2_log1p,0.672762
+f1_30d,lgbm,defecto,no aplica,con,prueba_2025,todas,sesgo,-0.480716
+f1_30d,lgbm,ajustado,no aplica,con,prueba_2025,todas,MAE,4.44793
+f1_30d,lgbm,ajustado,no aplica,con,prueba_2025,todas,RMSE,18.0399
+f1_30d,lgbm,ajustado,no aplica,con,prueba_2025,todas,MAE_con_focos,8.87459
+f1_30d,lgbm,ajustado,no aplica,con,prueba_2025,todas,R2_log1p,0.67376
+f1_30d,lgbm,ajustado,no aplica,con,prueba_2025,todas,sesgo,-0.366866
+f1_30d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,MAE,4.3038
+f1_30d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,RMSE,17.3817
+f1_30d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,MAE_con_focos,8.59132
+f1_30d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,R2_log1p,0.682063
+f1_30d,lgbm,ajustado,no aplica,sin,prueba_2025,todas,sesgo,-0.627329
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,accuracy,0.611271
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.519619
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.566732
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.60675
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.770726
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.896791
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.26061
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.189401
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.431357
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.394796
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.615786
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.60675
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.902566
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.745554
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.78315
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.879137
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.827602
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.590595
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.543654
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.552773
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.622222
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.73494
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.859155
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.312903
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.233735
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.49321
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.491342
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.633564
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.622222
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.8973
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.744208
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.78229
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.888871
+f2,rf,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.828167
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,accuracy,0.619149
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.543746
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.544463
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.619956
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.780287
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.863239
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.329196
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.264987
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.447585
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.423792
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.617916
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.619956
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.904806
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.762276
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.792513
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.890287
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.83747
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.605929
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.574147
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.521595
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.620988
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.744516
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.817643
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.396871
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.336145
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.516472
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.525974
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.63873
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.620988
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.896152
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.763305
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.791938
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.90072
+f2,xgb,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.838029
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,accuracy,0.627935
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.552095
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.527647
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.623624
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.788348
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.87345
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.332237
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.263249
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.461182
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.443866
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.626613
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.623624
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.909137
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.763068
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.796216
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.893696
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.840529
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.611551
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.57725
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.510095
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.632099
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.754374
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.830986
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.384559
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.318072
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.521556
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.536797
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.648512
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.632099
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.90358
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.762181
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.797157
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.904552
+f2,lgbm,defecto,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.841868
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,accuracy,0.618088
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,F1_macro,0.57633
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,error_ordinal,0.489774
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,recall_critico,0.616288
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,F1_Bajo,0.785456
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,recall_Bajo,0.752371
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,F1_Moderado,0.400625
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,recall_Moderado,0.445699
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,F1_Alto,0.484318
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,recall_Alto,0.49368
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,F1_Crítico,0.634921
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,recall_Crítico,0.616288
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,AUC_Bajo,0.910045
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,AUC_Moderado,0.766418
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,AUC_Alto,0.799242
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,AUC_Crítico,0.896794
+f2,lgbm,ajustado,pesos,con,prueba_2025,todas,AUC_macro,0.843125
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,accuracy,0.608229
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,F1_macro,0.599156
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,error_ordinal,0.47355
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,recall_critico,0.62716
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Bajo,0.742742
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Bajo,0.682728
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Moderado,0.452579
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Moderado,0.491566
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Alto,0.543272
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Alto,0.587662
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Crítico,0.658031
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Crítico,0.62716
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Bajo,0.905519
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Moderado,0.767
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Alto,0.803607
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Crítico,0.904801
+f2,lgbm,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_macro,0.845232
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,accuracy,0.614907
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,F1_macro,0.571818
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,error_ordinal,0.492956
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,recall_critico,0.612619
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,F1_Bajo,0.787441
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,recall_Bajo,0.754559
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,F1_Moderado,0.409498
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,recall_Moderado,0.456994
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,F1_Alto,0.463693
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,recall_Alto,0.467658
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,F1_Crítico,0.626642
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,recall_Crítico,0.612619
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,AUC_Bajo,0.910274
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,AUC_Moderado,0.76806
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,AUC_Alto,0.79829
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,AUC_Crítico,0.895954
+f2,lgbm,ajustado,pesos,sin,prueba_2025,todas,AUC_macro,0.843145
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,accuracy,0.604651
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_macro,0.594461
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,error_ordinal,0.47585
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_critico,0.616049
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Bajo,0.751807
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Bajo,0.693847
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Moderado,0.462548
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Moderado,0.509639
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Alto,0.518367
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Alto,0.549784
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Crítico,0.64512
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Crítico,0.616049
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Bajo,0.906121
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Moderado,0.768231
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Alto,0.800524
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Crítico,0.904283
+f2,lgbm,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_macro,0.84479
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,accuracy,0.625511
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.548317
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.529162
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.647836
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.786799
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.869438
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.323321
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.257168
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.445144
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.420818
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.638006
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.647836
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.90715
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.761597
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.794753
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.894333
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.839458
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.604907
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.56897
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.523895
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.654321
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.74891
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.828021
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.373057
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.303614
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.500803
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.506494
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.653112
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.654321
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.900601
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.763784
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.792521
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.903445
+f2,lgbm,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.840088
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,accuracy,0.624148
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_macro,0.547913
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,error_ordinal,0.528253
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_critico,0.641966
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Bajo,0.787949
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Bajo,0.86798
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Moderado,0.333511
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Moderado,0.271937
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Alto,0.4416
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Alto,0.410409
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Crítico,0.628592
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Crítico,0.641966
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Bajo,0.908139
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Moderado,0.758365
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Alto,0.792359
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Crítico,0.892929
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_macro,0.837948
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,accuracy,0.60414
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_macro,0.569989
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,error_ordinal,0.524406
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_critico,0.649383
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Bajo,0.749076
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Bajo,0.826538
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Moderado,0.393983
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Moderado,0.331325
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Alto,0.491498
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Alto,0.484848
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Crítico,0.645399
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Crítico,0.649383
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Bajo,0.900969
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Moderado,0.759902
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Alto,0.788192
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Crítico,0.90245
+f2,lgbm,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_macro,0.837878
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,accuracy,0.62642
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,F1_macro,0.564455
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,error_ordinal,0.500379
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,recall_critico,0.632428
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,F1_Bajo,0.795379
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,recall_Bajo,0.828592
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,F1_Moderado,0.366886
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,recall_Moderado,0.338836
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,F1_Alto,0.464286
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,recall_Alto,0.454275
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,F1_Crítico,0.631271
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,recall_Crítico,0.632428
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,AUC_Bajo,0.910046
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,AUC_Moderado,0.763934
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,AUC_Alto,0.79913
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,AUC_Crítico,0.896907
+f2,lgbm,ajustado,smote,con,prueba_2025,todas,AUC_macro,0.842504
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,accuracy,0.610785
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,F1_macro,0.588314
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,error_ordinal,0.486583
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,recall_critico,0.634568
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,F1_Bajo,0.761276
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,recall_Bajo,0.769459
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,F1_Moderado,0.423247
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,recall_Moderado,0.403614
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,F1_Alto,0.522597
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,recall_Alto,0.544372
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,F1_Crítico,0.646135
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,recall_Crítico,0.634568
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Bajo,0.905549
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Moderado,0.761443
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Alto,0.801773
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Crítico,0.90479
+f2,lgbm,ajustado,smote,con,prueba_2025,con_clase_t,AUC_macro,0.843389
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,accuracy,0.626117
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,F1_macro,0.562938
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,error_ordinal,0.50659
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,recall_critico,0.632428
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,F1_Bajo,0.797904
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,recall_Bajo,0.832969
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,F1_Moderado,0.374468
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,recall_Moderado,0.344049
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,F1_Alto,0.4527
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,recall_Alto,0.439405
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,F1_Crítico,0.626681
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,recall_Crítico,0.632428
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,AUC_Bajo,0.909328
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,AUC_Moderado,0.763221
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,AUC_Alto,0.793859
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,AUC_Crítico,0.894949
+f2,lgbm,ajustado,smote,sin,prueba_2025,todas,AUC_macro,0.840339
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,accuracy,0.607718
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,F1_macro,0.584793
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,error_ordinal,0.493483
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,recall_critico,0.632099
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Bajo,0.762774
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Bajo,0.774648
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Moderado,0.429109
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Moderado,0.412048
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Alto,0.504476
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Alto,0.518398
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Crítico,0.642812
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Crítico,0.632099
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Bajo,0.904549
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Moderado,0.761714
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Alto,0.794549
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Crítico,0.903619
+f2,lgbm,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_macro,0.841108
+f2,rf,ajustado,pesos,con,prueba_2025,todas,accuracy,0.617937
+f2,rf,ajustado,pesos,con,prueba_2025,todas,F1_macro,0.562733
+f2,rf,ajustado,pesos,con,prueba_2025,todas,error_ordinal,0.503409
+f2,rf,ajustado,pesos,con,prueba_2025,todas,recall_critico,0.604549
+f2,rf,ajustado,pesos,con,prueba_2025,todas,F1_Bajo,0.793365
+f2,rf,ajustado,pesos,con,prueba_2025,todas,recall_Bajo,0.802334
+f2,rf,ajustado,pesos,con,prueba_2025,todas,F1_Moderado,0.376862
+f2,rf,ajustado,pesos,con,prueba_2025,todas,recall_Moderado,0.373588
+f2,rf,ajustado,pesos,con,prueba_2025,todas,F1_Alto,0.459053
+f2,rf,ajustado,pesos,con,prueba_2025,todas,recall_Alto,0.464684
+f2,rf,ajustado,pesos,con,prueba_2025,todas,F1_Crítico,0.621652
+f2,rf,ajustado,pesos,con,prueba_2025,todas,recall_Crítico,0.604549
+f2,rf,ajustado,pesos,con,prueba_2025,todas,AUC_Bajo,0.908286
+f2,rf,ajustado,pesos,con,prueba_2025,todas,AUC_Moderado,0.765633
+f2,rf,ajustado,pesos,con,prueba_2025,todas,AUC_Alto,0.797597
+f2,rf,ajustado,pesos,con,prueba_2025,todas,AUC_Crítico,0.889881
+f2,rf,ajustado,pesos,con,prueba_2025,todas,AUC_macro,0.840349
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,accuracy,0.60644
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,F1_macro,0.5891
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,error_ordinal,0.482239
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,recall_critico,0.616049
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Bajo,0.757518
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Bajo,0.737583
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Moderado,0.434571
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Moderado,0.43012
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Alto,0.520439
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Alto,0.564935
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Crítico,0.643871
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Crítico,0.616049
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Bajo,0.903623
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Moderado,0.767512
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Alto,0.800663
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Crítico,0.901575
+f2,rf,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_macro,0.843343
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,accuracy,0.618846
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,F1_macro,0.564674
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,error_ordinal,0.505984
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,recall_critico,0.617755
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,F1_Bajo,0.791968
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,recall_Bajo,0.798322
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,F1_Moderado,0.383621
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,recall_Moderado,0.38662
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,F1_Alto,0.457551
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,recall_Alto,0.452788
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,F1_Crítico,0.625557
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,recall_Crítico,0.617755
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,AUC_Bajo,0.908315
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,AUC_Moderado,0.764624
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,AUC_Alto,0.796376
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,AUC_Crítico,0.888159
+f2,rf,ajustado,pesos,sin,prueba_2025,todas,AUC_macro,0.839368
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,accuracy,0.611296
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_macro,0.594975
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,error_ordinal,0.47585
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_critico,0.622222
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Bajo,0.758857
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Bajo,0.738325
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Moderado,0.448173
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Moderado,0.450602
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Alto,0.522968
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Alto,0.560606
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Crítico,0.649903
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Crítico,0.622222
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Bajo,0.904094
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Moderado,0.769053
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Alto,0.799058
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Crítico,0.900587
+f2,rf,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_macro,0.843198
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,accuracy,0.62127
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.537658
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.557643
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.622891
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.776862
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.893873
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.315789
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.242398
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.435544
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.388104
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.622434
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.622891
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.907461
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.758452
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.794583
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.882644
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.835785
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.608229
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.571855
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.522872
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.633333
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.746544
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.840623
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.376018
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.306024
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.516721
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.518398
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.648136
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.633333
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.903678
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.760829
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.798093
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.896134
+f2,rf,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.839684
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,accuracy,0.623087
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_macro,0.540443
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,error_ordinal,0.557643
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_critico,0.624358
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Bajo,0.777531
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Bajo,0.893508
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Moderado,0.324447
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Moderado,0.24848
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Alto,0.439983
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Alto,0.391078
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Crítico,0.619811
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Crítico,0.624358
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Bajo,0.907867
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Moderado,0.758037
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Alto,0.794698
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Crítico,0.882845
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_macro,0.835862
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,accuracy,0.611551
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_macro,0.575456
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,error_ordinal,0.52185
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_critico,0.630864
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Bajo,0.747209
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Bajo,0.843588
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Moderado,0.384787
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Moderado,0.310843
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Alto,0.522581
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Alto,0.525974
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Crítico,0.647245
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Crítico,0.630864
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Bajo,0.904013
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Moderado,0.761552
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Alto,0.797051
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Crítico,0.896211
+f2,rf,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_macro,0.839707
+f2,rf,ajustado,smote,con,prueba_2025,todas,accuracy,0.614907
+f2,rf,ajustado,smote,con,prueba_2025,todas,F1_macro,0.565658
+f2,rf,ajustado,smote,con,prueba_2025,todas,error_ordinal,0.502348
+f2,rf,ajustado,smote,con,prueba_2025,todas,recall_critico,0.608217
+f2,rf,ajustado,smote,con,prueba_2025,todas,F1_Bajo,0.78893
+f2,rf,ajustado,smote,con,prueba_2025,todas,recall_Bajo,0.779723
+f2,rf,ajustado,smote,con,prueba_2025,todas,F1_Moderado,0.395808
+f2,rf,ajustado,smote,con,prueba_2025,todas,recall_Moderado,0.426586
+f2,rf,ajustado,smote,con,prueba_2025,todas,F1_Alto,0.456687
+f2,rf,ajustado,smote,con,prueba_2025,todas,recall_Alto,0.44684
+f2,rf,ajustado,smote,con,prueba_2025,todas,F1_Crítico,0.621206
+f2,rf,ajustado,smote,con,prueba_2025,todas,recall_Crítico,0.608217
+f2,rf,ajustado,smote,con,prueba_2025,todas,AUC_Bajo,0.908351
+f2,rf,ajustado,smote,con,prueba_2025,todas,AUC_Moderado,0.764591
+f2,rf,ajustado,smote,con,prueba_2025,todas,AUC_Alto,0.797718
+f2,rf,ajustado,smote,con,prueba_2025,todas,AUC_Crítico,0.890622
+f2,rf,ajustado,smote,con,prueba_2025,todas,AUC_macro,0.84032
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,accuracy,0.602607
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,F1_macro,0.591397
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,error_ordinal,0.48275
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,recall_critico,0.620988
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,F1_Bajo,0.74426
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,recall_Bajo,0.696812
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,F1_Moderado,0.449115
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,recall_Moderado,0.489157
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,F1_Alto,0.526098
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,recall_Alto,0.550866
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,F1_Crítico,0.646114
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,recall_Crítico,0.620988
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Bajo,0.903511
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Moderado,0.764805
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Alto,0.801239
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Crítico,0.902547
+f2,rf,ajustado,smote,con,prueba_2025,con_clase_t,AUC_macro,0.843026
+f2,rf,ajustado,smote,sin,prueba_2025,todas,accuracy,0.613846
+f2,rf,ajustado,smote,sin,prueba_2025,todas,F1_macro,0.565592
+f2,rf,ajustado,smote,sin,prueba_2025,todas,error_ordinal,0.511589
+f2,rf,ajustado,smote,sin,prueba_2025,todas,recall_critico,0.619222
+f2,rf,ajustado,smote,sin,prueba_2025,todas,F1_Bajo,0.782769
+f2,rf,ajustado,smote,sin,prueba_2025,todas,recall_Bajo,0.772064
+f2,rf,ajustado,smote,sin,prueba_2025,todas,F1_Moderado,0.39741
+f2,rf,ajustado,smote,sin,prueba_2025,todas,recall_Moderado,0.426586
+f2,rf,ajustado,smote,sin,prueba_2025,todas,F1_Alto,0.45977
+f2,rf,ajustado,smote,sin,prueba_2025,todas,recall_Alto,0.446097
+f2,rf,ajustado,smote,sin,prueba_2025,todas,F1_Crítico,0.622419
+f2,rf,ajustado,smote,sin,prueba_2025,todas,recall_Crítico,0.619222
+f2,rf,ajustado,smote,sin,prueba_2025,todas,AUC_Bajo,0.90773
+f2,rf,ajustado,smote,sin,prueba_2025,todas,AUC_Moderado,0.762004
+f2,rf,ajustado,smote,sin,prueba_2025,todas,AUC_Alto,0.795031
+f2,rf,ajustado,smote,sin,prueba_2025,todas,AUC_Crítico,0.889207
+f2,rf,ajustado,smote,sin,prueba_2025,todas,AUC_macro,0.838493
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,accuracy,0.602351
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,F1_macro,0.591173
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,error_ordinal,0.487094
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,recall_critico,0.62716
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Bajo,0.740624
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Bajo,0.69533
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Moderado,0.45097
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Moderado,0.490361
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Alto,0.524727
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Alto,0.545455
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Crítico,0.648373
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Crítico,0.62716
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Bajo,0.902816
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Moderado,0.762852
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Alto,0.798239
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Crítico,0.901433
+f2,rf,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_macro,0.841335
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,accuracy,0.619603
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,F1_macro,0.57922
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,error_ordinal,0.486441
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,recall_critico,0.61482
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,F1_Bajo,0.784868
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,recall_Bajo,0.749088
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,F1_Moderado,0.417532
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,recall_Moderado,0.471764
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,F1_Alto,0.482505
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,recall_Alto,0.486989
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,F1_Crítico,0.631976
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,recall_Crítico,0.61482
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,AUC_Bajo,0.911477
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,AUC_Moderado,0.772543
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,AUC_Alto,0.802565
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,AUC_Crítico,0.900023
+f2,xgb,ajustado,pesos,con,prueba_2025,todas,AUC_macro,0.846652
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,accuracy,0.610273
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,F1_macro,0.601758
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,error_ordinal,0.468439
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,recall_critico,0.614815
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Bajo,0.743735
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Bajo,0.681987
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Moderado,0.466338
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Moderado,0.513253
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Alto,0.544272
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Alto,0.588745
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,F1_Crítico,0.652687
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,recall_Crítico,0.614815
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Bajo,0.907057
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Moderado,0.772005
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Alto,0.805148
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_Crítico,0.908149
+f2,xgb,ajustado,pesos,con,prueba_2025,con_clase_t,AUC_macro,0.84809
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,accuracy,0.613846
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,F1_macro,0.572159
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,error_ordinal,0.492956
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,recall_critico,0.614087
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,F1_Bajo,0.783722
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,recall_Bajo,0.747994
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,F1_Moderado,0.408987
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,recall_Moderado,0.466551
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,F1_Alto,0.470368
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,recall_Alto,0.466171
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,F1_Crítico,0.625561
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,recall_Crítico,0.614087
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,AUC_Bajo,0.912159
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,AUC_Moderado,0.771869
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,AUC_Alto,0.801346
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,AUC_Crítico,0.898186
+f2,xgb,ajustado,pesos,sin,prueba_2025,todas,AUC_macro,0.84589
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,accuracy,0.603118
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_macro,0.594096
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,error_ordinal,0.476616
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_critico,0.607407
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Bajo,0.742418
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Bajo,0.680504
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Moderado,0.464286
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Moderado,0.516867
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Alto,0.529472
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Alto,0.563853
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,F1_Crítico,0.640208
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,recall_Crítico,0.607407
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Bajo,0.907879
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Moderado,0.772755
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Alto,0.803269
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_Crítico,0.90664
+f2,xgb,ajustado,pesos,sin,prueba_2025,con_clase_t,AUC_macro,0.847636
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,accuracy,0.629299
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_macro,0.549596
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,error_ordinal,0.527193
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_critico,0.644167
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Bajo,0.787061
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Bajo,0.882932
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Moderado,0.320808
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Moderado,0.24848
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Alto,0.452665
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Alto,0.423048
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,F1_Crítico,0.63785
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,recall_Crítico,0.644167
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Bajo,0.912221
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Moderado,0.76776
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Alto,0.800462
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_Crítico,0.897236
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,todas,AUC_macro,0.84442
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,accuracy,0.615896
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_macro,0.580487
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,error_ordinal,0.499106
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_critico,0.644444
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Bajo,0.758967
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Bajo,0.83914
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Moderado,0.379765
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Moderado,0.312048
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Alto,0.52537
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Alto,0.537879
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,F1_Crítico,0.657845
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,recall_Crítico,0.644444
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Bajo,0.907968
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Moderado,0.768788
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Alto,0.802599
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_Crítico,0.905605
+f2,xgb,ajustado,sin_remuestreo,con,prueba_2025,con_clase_t,AUC_macro,0.84624
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,accuracy,0.629147
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_macro,0.548508
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,error_ordinal,0.526132
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_critico,0.647102
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Bajo,0.788979
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Bajo,0.887673
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Moderado,0.332029
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Moderado,0.258036
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Alto,0.43849
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Alto,0.401487
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,F1_Crítico,0.634532
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,recall_Crítico,0.647102
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Bajo,0.91319
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Moderado,0.769842
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Alto,0.800796
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_Crítico,0.895621
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,todas,AUC_macro,0.844862
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,accuracy,0.612573
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_macro,0.577776
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,error_ordinal,0.503706
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_critico,0.645679
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Bajo,0.757697
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Bajo,0.83914
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Moderado,0.392496
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Moderado,0.327711
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Alto,0.508383
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Alto,0.508658
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,F1_Crítico,0.652527
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,recall_Crítico,0.645679
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Bajo,0.908389
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Moderado,0.770172
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Alto,0.799253
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_Crítico,0.903702
+f2,xgb,ajustado,sin_remuestreo,sin,prueba_2025,con_clase_t,AUC_macro,0.845379
+f2,xgb,ajustado,smote,con,prueba_2025,todas,accuracy,0.621724
+f2,xgb,ajustado,smote,con,prueba_2025,todas,F1_macro,0.568911
+f2,xgb,ajustado,smote,con,prueba_2025,todas,error_ordinal,0.501439
+f2,xgb,ajustado,smote,con,prueba_2025,todas,recall_critico,0.640499
+f2,xgb,ajustado,smote,con,prueba_2025,todas,F1_Bajo,0.787649
+f2,xgb,ajustado,smote,con,prueba_2025,todas,recall_Bajo,0.795405
+f2,xgb,ajustado,smote,con,prueba_2025,todas,F1_Moderado,0.394186
+f2,xgb,ajustado,smote,con,prueba_2025,todas,recall_Moderado,0.400521
+f2,xgb,ajustado,smote,con,prueba_2025,todas,F1_Alto,0.453077
+f2,xgb,ajustado,smote,con,prueba_2025,todas,recall_Alto,0.437918
+f2,xgb,ajustado,smote,con,prueba_2025,todas,F1_Crítico,0.640734
+f2,xgb,ajustado,smote,con,prueba_2025,todas,recall_Crítico,0.640499
+f2,xgb,ajustado,smote,con,prueba_2025,todas,AUC_Bajo,0.906901
+f2,xgb,ajustado,smote,con,prueba_2025,todas,AUC_Moderado,0.767025
+f2,xgb,ajustado,smote,con,prueba_2025,todas,AUC_Alto,0.794987
+f2,xgb,ajustado,smote,con,prueba_2025,todas,AUC_Crítico,0.894039
+f2,xgb,ajustado,smote,con,prueba_2025,todas,AUC_macro,0.840738
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,accuracy,0.606696
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,F1_macro,0.59328
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,error_ordinal,0.479939
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,recall_critico,0.635802
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,F1_Bajo,0.747974
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,recall_Bajo,0.71831
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,F1_Moderado,0.445714
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,recall_Moderado,0.46988
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,F1_Alto,0.520021
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,recall_Alto,0.541126
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,F1_Crítico,0.659411
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,recall_Crítico,0.635802
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Bajo,0.902117
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Moderado,0.765019
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Alto,0.79696
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,AUC_Crítico,0.902556
+f2,xgb,ajustado,smote,con,prueba_2025,con_clase_t,AUC_macro,0.841663
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,accuracy,0.617482
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,F1_macro,0.564331
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,error_ordinal,0.509468
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,recall_critico,0.629494
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,F1_Bajo,0.788385
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,recall_Bajo,0.792123
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,F1_Moderado,0.391194
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,recall_Moderado,0.40139
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,F1_Alto,0.449404
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,recall_Alto,0.434201
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,F1_Crítico,0.628341
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,recall_Crítico,0.629494
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,AUC_Bajo,0.907248
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,AUC_Moderado,0.767257
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,AUC_Alto,0.793054
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,AUC_Crítico,0.892802
+f2,xgb,ajustado,smote,sin,prueba_2025,todas,AUC_macro,0.84009
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,accuracy,0.603373
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,F1_macro,0.590223
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,error_ordinal,0.486839
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,recall_critico,0.624691
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Bajo,0.748056
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Bajo,0.713121
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Moderado,0.449944
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Moderado,0.481928
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Alto,0.515421
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Alto,0.53355
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,F1_Crítico,0.647473
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,recall_Crítico,0.624691
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Bajo,0.902277
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Moderado,0.76549
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Alto,0.795728
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_Crítico,0.902168
+f2,xgb,ajustado,smote,sin,prueba_2025,con_clase_t,AUC_macro,0.841416
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,MAE,1.45131
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,RMSE,5.29086
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,MAE_con_focos,4.8406
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,R2_log1p,0.357023
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,sesgo,-0.0288521
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,recall_alerta,0.509922
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,precision_alerta,0.517967
+f1_7d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,tasa_falsas_alarmas,0.0207281
+f1_30d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,MAE,5.80212
+f1_30d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,RMSE,20.3734
+f1_30d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,MAE_con_focos,12.1131
+f1_30d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,R2_log1p,0.301986
+f1_30d,persistencia,baseline,no aplica,no aplica,prueba_2025,todas,sesgo,-0.159607
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,accuracy,0.582162
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,F1_macro,0.561658
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,error_ordinal,0.526706
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,recall_critico,0.634568
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,F1_Bajo,0.72968
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,recall_Bajo,0.73536
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,F1_Moderado,0.40678
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,recall_Moderado,0.404819
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,F1_Alto,0.474429
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,recall_Alto,0.471861
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,F1_Crítico,0.635745
+f2,persistencia,baseline,no aplica,no aplica,prueba_2025,con_clase_t,recall_Crítico,0.634568

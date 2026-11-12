@@ -1,0 +1,16 @@
+﻿tarea,modelo,métrica,con_SISAM_val,sin_SISAM_val,mejora_con_SISAM_%,con_SISAM_2025,sin_SISAM_2025,decisión
+Frente 1 a 7 días,Random Forest,MAE (menor es mejor),3.03953,3.04099,0.04801068073225479,1.30384,1.29056,Sin SISAM
+Frente 1 a 7 días,XGBoost,MAE (menor es mejor),3.00426,3.02623,0.7259857975104353,1.30306,1.28627,Sin SISAM
+Frente 1 a 7 días,LightGBM,MAE (menor es mejor),2.98248,3.00135,0.6287170773152136,1.2801,1.27004,Sin SISAM
+Frente 1 a 30 días,Random Forest,MAE (menor es mejor),10.3605,10.4103,0.47837238119938336,4.41034,4.36137,Con SISAM
+Frente 1 a 30 días,XGBoost,MAE (menor es mejor),9.94227,10.172,2.258454581203303,4.61616,4.36599,Con SISAM
+Frente 1 a 30 días,LightGBM,MAE (menor es mejor),10.031,10.04,0.08964143426293392,4.44793,4.3038,Con SISAM
+Frente 2 (sin remuestreo),Random Forest,F1 macro (mayor es mejor),0.546213,0.545898,0.057703087389943584,0.571855,0.575456,Sin SISAM
+Frente 2 (pesos de clase),Random Forest,F1 macro (mayor es mejor),0.569691,0.56956,0.023000210688951514,0.5891,0.594975,Sin SISAM
+Frente 2 (SMOTE),Random Forest,F1 macro (mayor es mejor),0.572638,0.571789,0.1484813453913924,0.591397,0.591173,Sin SISAM
+Frente 2 (sin remuestreo),XGBoost,F1 macro (mayor es mejor),0.535993,0.531479,0.8493280073154382,0.580487,0.577776,Sin SISAM
+Frente 2 (pesos de clase),XGBoost,F1 macro (mayor es mejor),0.553356,0.557186,-0.6873826693420152,0.601758,0.594096,Sin SISAM
+Frente 2 (SMOTE),XGBoost,F1 macro (mayor es mejor),0.571602,0.566632,0.8771124821753854,0.59328,0.590223,Sin SISAM
+Frente 2 (sin remuestreo),LightGBM,F1 macro (mayor es mejor),0.540102,0.53109,1.6968875331864692,0.56897,0.569989,Sin SISAM
+Frente 2 (pesos de clase),LightGBM,F1 macro (mayor es mejor),0.559563,0.557373,0.39291461911503167,0.599156,0.594461,Sin SISAM
+Frente 2 (SMOTE),LightGBM,F1 macro (mayor es mejor),0.5618,0.56125,0.09799554565700479,0.588314,0.584793,Sin SISAM

@@ -1,0 +1,561 @@
+frente,modelo,sisam,evaluacion,subconjunto,metrica,valor
+f1_30d,arbol,con,cv_promedio,todas,MAE,12.4444
+f1_30d,arbol,con,cv_promedio,todas,MAE_con_focos,18.088
+f1_30d,arbol,con,cv_promedio,todas,R2_log1p,0.547722
+f1_30d,arbol,con,cv_promedio,todas,RMSE,53.2154
+f1_30d,arbol,con,cv_promedio,todas,sesgo,-4.2535
+f1_30d,arbol,sin,cv_promedio,todas,MAE,12.2713
+f1_30d,arbol,sin,cv_promedio,todas,MAE_con_focos,17.9148
+f1_30d,arbol,sin,cv_promedio,todas,R2_log1p,0.567812
+f1_30d,arbol,sin,cv_promedio,todas,RMSE,52.9379
+f1_30d,arbol,sin,cv_promedio,todas,sesgo,-4.37981
+f1_30d,lineal,con,cv_promedio,todas,MAE,12.4513
+f1_30d,lineal,con,cv_promedio,todas,MAE_con_focos,18.0792
+f1_30d,lineal,con,cv_promedio,todas,R2_log1p,0.594057
+f1_30d,lineal,con,cv_promedio,todas,RMSE,53.2544
+f1_30d,lineal,con,cv_promedio,todas,sesgo,-5.36974
+f1_30d,lineal,sin,cv_promedio,todas,MAE,12.4712
+f1_30d,lineal,sin,cv_promedio,todas,MAE_con_focos,18.0724
+f1_30d,lineal,sin,cv_promedio,todas,R2_log1p,0.592749
+f1_30d,lineal,sin,cv_promedio,todas,RMSE,53.6878
+f1_30d,lineal,sin,cv_promedio,todas,sesgo,-5.48026
+f1_30d,persistencia,no aplica,cv_promedio,todas,MAE,14.7522
+f1_30d,persistencia,no aplica,cv_promedio,todas,MAE_con_focos,21.7397
+f1_30d,persistencia,no aplica,cv_promedio,todas,R2_log1p,0.324397
+f1_30d,persistencia,no aplica,cv_promedio,todas,RMSE,63.1831
+f1_30d,persistencia,no aplica,cv_promedio,todas,sesgo,-0.14913
+f1_7d,arbol,con,cv_promedio,todas,MAE,3.38281
+f1_7d,arbol,con,cv_promedio,todas,MAE_con_focos,7.23886
+f1_7d,arbol,con,cv_promedio,todas,R2_log1p,0.490183
+f1_7d,arbol,con,cv_promedio,todas,RMSE,15.0935
+f1_7d,arbol,con,cv_promedio,todas,alertas_reales,1069.5
+f1_7d,arbol,con,cv_promedio,todas,precision_alerta,0.667222
+f1_7d,arbol,con,cv_promedio,todas,recall_alerta,0.465758
+f1_7d,arbol,con,cv_promedio,todas,sesgo,-1.30759
+f1_7d,arbol,con,cv_promedio,todas,tasa_falsas_alarmas,0.0183772
+f1_7d,arbol,sin,cv_promedio,todas,MAE,3.35665
+f1_7d,arbol,sin,cv_promedio,todas,MAE_con_focos,7.16898
+f1_7d,arbol,sin,cv_promedio,todas,R2_log1p,0.492555
+f1_7d,arbol,sin,cv_promedio,todas,RMSE,14.9802
+f1_7d,arbol,sin,cv_promedio,todas,alertas_reales,1069.5
+f1_7d,arbol,sin,cv_promedio,todas,precision_alerta,0.661409
+f1_7d,arbol,sin,cv_promedio,todas,recall_alerta,0.467592
+f1_7d,arbol,sin,cv_promedio,todas,sesgo,-1.28614
+f1_7d,arbol,sin,cv_promedio,todas,tasa_falsas_alarmas,0.0194834
+f1_7d,lineal,con,cv_promedio,todas,MAE,3.27361
+f1_7d,lineal,con,cv_promedio,todas,MAE_con_focos,7.01906
+f1_7d,lineal,con,cv_promedio,todas,R2_log1p,0.561446
+f1_7d,lineal,con,cv_promedio,todas,RMSE,15.3761
+f1_7d,lineal,con,cv_promedio,todas,alertas_reales,1069.5
+f1_7d,lineal,con,cv_promedio,todas,precision_alerta,0.743199
+f1_7d,lineal,con,cv_promedio,todas,recall_alerta,0.436048
+f1_7d,lineal,con,cv_promedio,todas,sesgo,-2.02546
+f1_7d,lineal,con,cv_promedio,todas,tasa_falsas_alarmas,0.0141433
+f1_7d,lineal,sin,cv_promedio,todas,MAE,3.28144
+f1_7d,lineal,sin,cv_promedio,todas,MAE_con_focos,7.01503
+f1_7d,lineal,sin,cv_promedio,todas,R2_log1p,0.562204
+f1_7d,lineal,sin,cv_promedio,todas,RMSE,15.728
+f1_7d,lineal,sin,cv_promedio,todas,alertas_reales,1069.5
+f1_7d,lineal,sin,cv_promedio,todas,precision_alerta,0.737916
+f1_7d,lineal,sin,cv_promedio,todas,recall_alerta,0.447901
+f1_7d,lineal,sin,cv_promedio,todas,sesgo,-2.13955
+f1_7d,lineal,sin,cv_promedio,todas,tasa_falsas_alarmas,0.0143188
+f1_7d,persistencia,no aplica,cv_promedio,todas,MAE,3.46064
+f1_7d,persistencia,no aplica,cv_promedio,todas,MAE_con_focos,7.48386
+f1_7d,persistencia,no aplica,cv_promedio,todas,R2_log1p,0.398745
+f1_7d,persistencia,no aplica,cv_promedio,todas,RMSE,14.2048
+f1_7d,persistencia,no aplica,cv_promedio,todas,alertas_reales,1069.5
+f1_7d,persistencia,no aplica,cv_promedio,todas,precision_alerta,0.590785
+f1_7d,persistencia,no aplica,cv_promedio,todas,recall_alerta,0.579121
+f1_7d,persistencia,no aplica,cv_promedio,todas,sesgo,-0.0217253
+f1_7d,persistencia,no aplica,cv_promedio,todas,tasa_falsas_alarmas,0.0333338
+f2,arbol,con,cv_promedio,con_clase_t,F1_Alto,0.40505
+f2,arbol,con,cv_promedio,con_clase_t,F1_Bajo,0.812682
+f2,arbol,con,cv_promedio,con_clase_t,F1_Crítico,0.481524
+f2,arbol,con,cv_promedio,con_clase_t,F1_Moderado,0.377504
+f2,arbol,con,cv_promedio,con_clase_t,F1_macro,0.51919
+f2,arbol,con,cv_promedio,con_clase_t,accuracy,0.650653
+f2,arbol,con,cv_promedio,con_clase_t,error_ordinal,0.450378
+f2,arbol,con,cv_promedio,con_clase_t,recall_Alto,0.41509
+f2,arbol,con,cv_promedio,con_clase_t,recall_Bajo,0.8312
+f2,arbol,con,cv_promedio,con_clase_t,recall_Crítico,0.456014
+f2,arbol,con,cv_promedio,con_clase_t,recall_Moderado,0.37898
+f2,arbol,con,cv_promedio,con_clase_t,recall_critico,0.456014
+f2,arbol,con,cv_promedio,todas,F1_Alto,0.363526
+f2,arbol,con,cv_promedio,todas,F1_Bajo,0.821696
+f2,arbol,con,cv_promedio,todas,F1_Crítico,0.49759
+f2,arbol,con,cv_promedio,todas,F1_Moderado,0.333809
+f2,arbol,con,cv_promedio,todas,F1_macro,0.504155
+f2,arbol,con,cv_promedio,todas,accuracy,0.674343
+f2,arbol,con,cv_promedio,todas,error_ordinal,0.45343
+f2,arbol,con,cv_promedio,todas,recall_Alto,0.358554
+f2,arbol,con,cv_promedio,todas,recall_Bajo,0.851273
+f2,arbol,con,cv_promedio,todas,recall_Crítico,0.500105
+f2,arbol,con,cv_promedio,todas,recall_Moderado,0.313356
+f2,arbol,con,cv_promedio,todas,recall_critico,0.500105
+f2,arbol,sin,cv_promedio,con_clase_t,F1_Alto,0.407529
+f2,arbol,sin,cv_promedio,con_clase_t,F1_Bajo,0.811699
+f2,arbol,sin,cv_promedio,con_clase_t,F1_Crítico,0.483981
+f2,arbol,sin,cv_promedio,con_clase_t,F1_Moderado,0.379457
+f2,arbol,sin,cv_promedio,con_clase_t,F1_macro,0.520666
+f2,arbol,sin,cv_promedio,con_clase_t,accuracy,0.649981
+f2,arbol,sin,cv_promedio,con_clase_t,error_ordinal,0.44886
+f2,arbol,sin,cv_promedio,con_clase_t,recall_Alto,0.415919
+f2,arbol,sin,cv_promedio,con_clase_t,recall_Bajo,0.82724
+f2,arbol,sin,cv_promedio,con_clase_t,recall_Crítico,0.456949
+f2,arbol,sin,cv_promedio,con_clase_t,recall_Moderado,0.386898
+f2,arbol,sin,cv_promedio,con_clase_t,recall_critico,0.456949
+f2,arbol,sin,cv_promedio,todas,F1_Alto,0.369096
+f2,arbol,sin,cv_promedio,todas,F1_Bajo,0.823651
+f2,arbol,sin,cv_promedio,todas,F1_Crítico,0.511567
+f2,arbol,sin,cv_promedio,todas,F1_Moderado,0.334314
+f2,arbol,sin,cv_promedio,todas,F1_macro,0.509657
+f2,arbol,sin,cv_promedio,todas,accuracy,0.675021
+f2,arbol,sin,cv_promedio,todas,error_ordinal,0.448483
+f2,arbol,sin,cv_promedio,todas,recall_Alto,0.362285
+f2,arbol,sin,cv_promedio,todas,recall_Bajo,0.845388
+f2,arbol,sin,cv_promedio,todas,recall_Crítico,0.523661
+f2,arbol,sin,cv_promedio,todas,recall_Moderado,0.320804
+f2,arbol,sin,cv_promedio,todas,recall_critico,0.523661
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,F1_Alto,0.411799
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,F1_Bajo,0.768668
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,F1_Crítico,0.45453
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,F1_Moderado,0.407594
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,F1_macro,0.510648
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,accuracy,0.614588
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,error_ordinal,0.476648
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,recall_Alto,0.482867
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,recall_Bajo,0.685545
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,recall_Crítico,0.425291
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,recall_Moderado,0.491683
+f2,arbol_balanceado,con,cv_promedio,con_clase_t,recall_critico,0.425291
+f2,arbol_balanceado,con,cv_promedio,todas,F1_Alto,0.367431
+f2,arbol_balanceado,con,cv_promedio,todas,F1_Bajo,0.775663
+f2,arbol_balanceado,con,cv_promedio,todas,F1_Crítico,0.495011
+f2,arbol_balanceado,con,cv_promedio,todas,F1_Moderado,0.349174
+f2,arbol_balanceado,con,cv_promedio,todas,F1_macro,0.49682
+f2,arbol_balanceado,con,cv_promedio,todas,accuracy,0.627521
+f2,arbol_balanceado,con,cv_promedio,todas,error_ordinal,0.485752
+f2,arbol_balanceado,con,cv_promedio,todas,recall_Alto,0.408247
+f2,arbol_balanceado,con,cv_promedio,todas,recall_Bajo,0.692864
+f2,arbol_balanceado,con,cv_promedio,todas,recall_Crítico,0.507705
+f2,arbol_balanceado,con,cv_promedio,todas,recall_Moderado,0.437547
+f2,arbol_balanceado,con,cv_promedio,todas,recall_critico,0.507705
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,F1_Alto,0.404467
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,F1_Bajo,0.76064
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,F1_Crítico,0.422586
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,F1_Moderado,0.398778
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,F1_macro,0.496618
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,accuracy,0.604251
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,error_ordinal,0.490967
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,recall_Alto,0.498046
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,recall_Bajo,0.668744
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,recall_Crítico,0.404185
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,recall_Moderado,0.481164
+f2,arbol_balanceado,sin,cv_promedio,con_clase_t,recall_critico,0.404185
+f2,arbol_balanceado,sin,cv_promedio,todas,F1_Alto,0.360669
+f2,arbol_balanceado,sin,cv_promedio,todas,F1_Bajo,0.766923
+f2,arbol_balanceado,sin,cv_promedio,todas,F1_Crítico,0.461545
+f2,arbol_balanceado,sin,cv_promedio,todas,F1_Moderado,0.346756
+f2,arbol_balanceado,sin,cv_promedio,todas,F1_macro,0.483973
+f2,arbol_balanceado,sin,cv_promedio,todas,accuracy,0.618133
+f2,arbol_balanceado,sin,cv_promedio,todas,error_ordinal,0.499554
+f2,arbol_balanceado,sin,cv_promedio,todas,recall_Alto,0.453596
+f2,arbol_balanceado,sin,cv_promedio,todas,recall_Bajo,0.676521
+f2,arbol_balanceado,sin,cv_promedio,todas,recall_Crítico,0.458634
+f2,arbol_balanceado,sin,cv_promedio,todas,recall_Moderado,0.426983
+f2,arbol_balanceado,sin,cv_promedio,todas,recall_critico,0.458634
+f2,persistencia,no aplica,cv_promedio,con_clase_t,F1_Alto,0.436356
+f2,persistencia,no aplica,cv_promedio,con_clase_t,F1_Bajo,0.823663
+f2,persistencia,no aplica,cv_promedio,con_clase_t,F1_Crítico,0.548306
+f2,persistencia,no aplica,cv_promedio,con_clase_t,F1_Moderado,0.413488
+f2,persistencia,no aplica,cv_promedio,con_clase_t,F1_macro,0.555453
+f2,persistencia,no aplica,cv_promedio,con_clase_t,accuracy,0.686354
+f2,persistencia,no aplica,cv_promedio,con_clase_t,error_ordinal,0.392589
+f2,persistencia,no aplica,cv_promedio,con_clase_t,recall_Alto,0.417166
+f2,persistencia,no aplica,cv_promedio,con_clase_t,recall_Bajo,0.83212
+f2,persistencia,no aplica,cv_promedio,con_clase_t,recall_Crítico,0.545406
+f2,persistencia,no aplica,cv_promedio,con_clase_t,recall_Moderado,0.405943
+f2,persistencia,no aplica,cv_promedio,con_clase_t,recall_critico,0.545406
+f1_30d,arbol,con,cv_desviacion,todas,MAE,11.211
+f1_30d,arbol,con,cv_desviacion,todas,MAE_con_focos,12.0723
+f1_30d,arbol,con,cv_desviacion,todas,R2_log1p,0.113938
+f1_30d,arbol,con,cv_desviacion,todas,RMSE,48.8816
+f1_30d,arbol,con,cv_desviacion,todas,sesgo,4.16011
+f1_30d,arbol,sin,cv_desviacion,todas,MAE,11.1345
+f1_30d,arbol,sin,cv_desviacion,todas,MAE_con_focos,11.9691
+f1_30d,arbol,sin,cv_desviacion,todas,R2_log1p,0.0849875
+f1_30d,arbol,sin,cv_desviacion,todas,RMSE,48.8259
+f1_30d,arbol,sin,cv_desviacion,todas,sesgo,4.16405
+f1_30d,lineal,con,cv_desviacion,todas,MAE,12.1681
+f1_30d,lineal,con,cv_desviacion,todas,MAE_con_focos,13.4786
+f1_30d,lineal,con,cv_desviacion,todas,R2_log1p,0.0737976
+f1_30d,lineal,con,cv_desviacion,todas,RMSE,54.3135
+f1_30d,lineal,con,cv_desviacion,todas,sesgo,4.17192
+f1_30d,lineal,sin,cv_desviacion,todas,MAE,12.1261
+f1_30d,lineal,sin,cv_desviacion,todas,MAE_con_focos,13.4605
+f1_30d,lineal,sin,cv_desviacion,todas,R2_log1p,0.0730663
+f1_30d,lineal,sin,cv_desviacion,todas,RMSE,54.2855
+f1_30d,lineal,sin,cv_desviacion,todas,sesgo,4.40817
+f1_30d,persistencia,no aplica,cv_desviacion,todas,MAE,13.8807
+f1_30d,persistencia,no aplica,cv_desviacion,todas,MAE_con_focos,15.1602
+f1_30d,persistencia,no aplica,cv_desviacion,todas,R2_log1p,0.0485716
+f1_30d,persistencia,no aplica,cv_desviacion,todas,RMSE,60.7431
+f1_30d,persistencia,no aplica,cv_desviacion,todas,sesgo,0.620239
+f1_7d,arbol,con,cv_desviacion,todas,MAE,3.11533
+f1_7d,arbol,con,cv_desviacion,todas,MAE_con_focos,4.40718
+f1_7d,arbol,con,cv_desviacion,todas,R2_log1p,0.10547
+f1_7d,arbol,con,cv_desviacion,todas,RMSE,13.6721
+f1_7d,arbol,con,cv_desviacion,todas,alertas_reales,689.154
+f1_7d,arbol,con,cv_desviacion,todas,precision_alerta,0.0760468
+f1_7d,arbol,con,cv_desviacion,todas,recall_alerta,0.0706216
+f1_7d,arbol,con,cv_desviacion,todas,sesgo,1.34947
+f1_7d,arbol,con,cv_desviacion,todas,tasa_falsas_alarmas,0.0113208
+f1_7d,arbol,sin,cv_desviacion,todas,MAE,3.09847
+f1_7d,arbol,sin,cv_desviacion,todas,MAE_con_focos,4.40601
+f1_7d,arbol,sin,cv_desviacion,todas,R2_log1p,0.1031
+f1_7d,arbol,sin,cv_desviacion,todas,RMSE,13.6902
+f1_7d,arbol,sin,cv_desviacion,todas,alertas_reales,689.154
+f1_7d,arbol,sin,cv_desviacion,todas,precision_alerta,0.060516
+f1_7d,arbol,sin,cv_desviacion,todas,recall_alerta,0.0738616
+f1_7d,arbol,sin,cv_desviacion,todas,sesgo,1.29584
+f1_7d,arbol,sin,cv_desviacion,todas,tasa_falsas_alarmas,0.0126027
+f1_7d,lineal,con,cv_desviacion,todas,MAE,3.13442
+f1_7d,lineal,con,cv_desviacion,todas,MAE_con_focos,4.54054
+f1_7d,lineal,con,cv_desviacion,todas,R2_log1p,0.0727015
+f1_7d,lineal,con,cv_desviacion,todas,RMSE,15.049
+f1_7d,lineal,con,cv_desviacion,todas,alertas_reales,689.154
+f1_7d,lineal,con,cv_desviacion,todas,precision_alerta,0.0289731
+f1_7d,lineal,con,cv_desviacion,todas,recall_alerta,0.0760885
+f1_7d,lineal,con,cv_desviacion,todas,sesgo,2.00992
+f1_7d,lineal,con,cv_desviacion,todas,tasa_falsas_alarmas,0.011751
+f1_7d,lineal,sin,cv_desviacion,todas,MAE,3.15969
+f1_7d,lineal,sin,cv_desviacion,todas,MAE_con_focos,4.63406
+f1_7d,lineal,sin,cv_desviacion,todas,R2_log1p,0.0761288
+f1_7d,lineal,sin,cv_desviacion,todas,RMSE,15.8727
+f1_7d,lineal,sin,cv_desviacion,todas,alertas_reales,689.154
+f1_7d,lineal,sin,cv_desviacion,todas,precision_alerta,0.0250203
+f1_7d,lineal,sin,cv_desviacion,todas,recall_alerta,0.0726693
+f1_7d,lineal,sin,cv_desviacion,todas,sesgo,2.27143
+f1_7d,lineal,sin,cv_desviacion,todas,tasa_falsas_alarmas,0.0105737
+f1_7d,persistencia,no aplica,cv_desviacion,todas,MAE,3.13027
+f1_7d,persistencia,no aplica,cv_desviacion,todas,MAE_con_focos,4.28306
+f1_7d,persistencia,no aplica,cv_desviacion,todas,R2_log1p,0.113231
+f1_7d,persistencia,no aplica,cv_desviacion,todas,RMSE,11.899
+f1_7d,persistencia,no aplica,cv_desviacion,todas,alertas_reales,689.154
+f1_7d,persistencia,no aplica,cv_desviacion,todas,precision_alerta,0.0652813
+f1_7d,persistencia,no aplica,cv_desviacion,todas,recall_alerta,0.0828032
+f1_7d,persistencia,no aplica,cv_desviacion,todas,sesgo,0.0252769
+f1_7d,persistencia,no aplica,cv_desviacion,todas,tasa_falsas_alarmas,0.0208807
+f2,arbol,con,cv_desviacion,con_clase_t,F1_Alto,0.0489914
+f2,arbol,con,cv_desviacion,con_clase_t,F1_Bajo,0.0990461
+f2,arbol,con,cv_desviacion,con_clase_t,F1_Crítico,0.204325
+f2,arbol,con,cv_desviacion,con_clase_t,F1_Moderado,0.048975
+f2,arbol,con,cv_desviacion,con_clase_t,F1_macro,0.0584052
+f2,arbol,con,cv_desviacion,con_clase_t,accuracy,0.076267
+f2,arbol,con,cv_desviacion,con_clase_t,error_ordinal,0.104956
+f2,arbol,con,cv_desviacion,con_clase_t,recall_Alto,0.04892
+f2,arbol,con,cv_desviacion,con_clase_t,recall_Bajo,0.075512
+f2,arbol,con,cv_desviacion,con_clase_t,recall_Crítico,0.202633
+f2,arbol,con,cv_desviacion,con_clase_t,recall_Moderado,0.0718407
+f2,arbol,con,cv_desviacion,con_clase_t,recall_critico,0.202633
+f2,arbol,con,cv_desviacion,todas,F1_Alto,0.0446603
+f2,arbol,con,cv_desviacion,todas,F1_Bajo,0.105594
+f2,arbol,con,cv_desviacion,todas,F1_Crítico,0.186487
+f2,arbol,con,cv_desviacion,todas,F1_Moderado,0.0434517
+f2,arbol,con,cv_desviacion,todas,F1_macro,0.0489088
+f2,arbol,con,cv_desviacion,todas,accuracy,0.10589
+f2,arbol,con,cv_desviacion,todas,error_ordinal,0.137306
+f2,arbol,con,cv_desviacion,todas,recall_Alto,0.0422592
+f2,arbol,con,cv_desviacion,todas,recall_Bajo,0.0809443
+f2,arbol,con,cv_desviacion,todas,recall_Crítico,0.161613
+f2,arbol,con,cv_desviacion,todas,recall_Moderado,0.0441083
+f2,arbol,con,cv_desviacion,todas,recall_critico,0.161613
+f2,arbol,sin,cv_desviacion,con_clase_t,F1_Alto,0.0518102
+f2,arbol,sin,cv_desviacion,con_clase_t,F1_Bajo,0.102923
+f2,arbol,sin,cv_desviacion,con_clase_t,F1_Crítico,0.198845
+f2,arbol,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0585356
+f2,arbol,sin,cv_desviacion,con_clase_t,F1_macro,0.0593531
+f2,arbol,sin,cv_desviacion,con_clase_t,accuracy,0.0790129
+f2,arbol,sin,cv_desviacion,con_clase_t,error_ordinal,0.108046
+f2,arbol,sin,cv_desviacion,con_clase_t,recall_Alto,0.0579674
+f2,arbol,sin,cv_desviacion,con_clase_t,recall_Bajo,0.0788492
+f2,arbol,sin,cv_desviacion,con_clase_t,recall_Crítico,0.197697
+f2,arbol,sin,cv_desviacion,con_clase_t,recall_Moderado,0.0697464
+f2,arbol,sin,cv_desviacion,con_clase_t,recall_critico,0.197697
+f2,arbol,sin,cv_desviacion,todas,F1_Alto,0.0465576
+f2,arbol,sin,cv_desviacion,todas,F1_Bajo,0.108098
+f2,arbol,sin,cv_desviacion,todas,F1_Crítico,0.181053
+f2,arbol,sin,cv_desviacion,todas,F1_Moderado,0.0456553
+f2,arbol,sin,cv_desviacion,todas,F1_macro,0.0520486
+f2,arbol,sin,cv_desviacion,todas,accuracy,0.110493
+f2,arbol,sin,cv_desviacion,todas,error_ordinal,0.144011
+f2,arbol,sin,cv_desviacion,todas,recall_Alto,0.0486132
+f2,arbol,sin,cv_desviacion,todas,recall_Bajo,0.087129
+f2,arbol,sin,cv_desviacion,todas,recall_Crítico,0.143349
+f2,arbol,sin,cv_desviacion,todas,recall_Moderado,0.043999
+f2,arbol,sin,cv_desviacion,todas,recall_critico,0.143349
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,F1_Alto,0.0419613
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,F1_Bajo,0.119585
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,F1_Crítico,0.214708
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,F1_Moderado,0.0824168
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,F1_macro,0.0528331
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,accuracy,0.0839045
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,error_ordinal,0.112979
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,recall_Alto,0.0211736
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,recall_Bajo,0.1537
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,recall_Crítico,0.25055
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,recall_Moderado,0.101843
+f2,arbol_balanceado,con,cv_desviacion,con_clase_t,recall_critico,0.25055
+f2,arbol_balanceado,con,cv_desviacion,todas,F1_Alto,0.050773
+f2,arbol_balanceado,con,cv_desviacion,todas,F1_Bajo,0.127263
+f2,arbol_balanceado,con,cv_desviacion,todas,F1_Crítico,0.185595
+f2,arbol_balanceado,con,cv_desviacion,todas,F1_Moderado,0.0724864
+f2,arbol_balanceado,con,cv_desviacion,todas,F1_macro,0.0573217
+f2,arbol_balanceado,con,cv_desviacion,todas,accuracy,0.107505
+f2,arbol_balanceado,con,cv_desviacion,todas,error_ordinal,0.146439
+f2,arbol_balanceado,con,cv_desviacion,todas,recall_Alto,0.0449737
+f2,arbol_balanceado,con,cv_desviacion,todas,recall_Bajo,0.161093
+f2,arbol_balanceado,con,cv_desviacion,todas,recall_Crítico,0.169974
+f2,arbol_balanceado,con,cv_desviacion,todas,recall_Moderado,0.0775993
+f2,arbol_balanceado,con,cv_desviacion,todas,recall_critico,0.169974
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,F1_Alto,0.0495146
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,F1_Bajo,0.122367
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,F1_Crítico,0.250514
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,F1_Moderado,0.0830539
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,F1_macro,0.0598423
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,accuracy,0.0811784
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,error_ordinal,0.105513
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,recall_Alto,0.0585969
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,recall_Bajo,0.158312
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,recall_Crítico,0.276531
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,recall_Moderado,0.108398
+f2,arbol_balanceado,sin,cv_desviacion,con_clase_t,recall_critico,0.276531
+f2,arbol_balanceado,sin,cv_desviacion,todas,F1_Alto,0.0545311
+f2,arbol_balanceado,sin,cv_desviacion,todas,F1_Bajo,0.130302
+f2,arbol_balanceado,sin,cv_desviacion,todas,F1_Crítico,0.21604
+f2,arbol_balanceado,sin,cv_desviacion,todas,F1_Moderado,0.0842707
+f2,arbol_balanceado,sin,cv_desviacion,todas,F1_macro,0.0598153
+f2,arbol_balanceado,sin,cv_desviacion,todas,accuracy,0.101516
+f2,arbol_balanceado,sin,cv_desviacion,todas,error_ordinal,0.13577
+f2,arbol_balanceado,sin,cv_desviacion,todas,recall_Alto,0.0243144
+f2,arbol_balanceado,sin,cv_desviacion,todas,recall_Bajo,0.164628
+f2,arbol_balanceado,sin,cv_desviacion,todas,recall_Crítico,0.226985
+f2,arbol_balanceado,sin,cv_desviacion,todas,recall_Moderado,0.111592
+f2,arbol_balanceado,sin,cv_desviacion,todas,recall_critico,0.226985
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,F1_Alto,0.0796137
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,F1_Bajo,0.092699
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,F1_Crítico,0.239755
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,F1_Moderado,0.0163857
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,F1_macro,0.0599199
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,accuracy,0.0644603
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,error_ordinal,0.0720177
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,recall_Alto,0.0991934
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,recall_Bajo,0.117668
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,recall_Crítico,0.260537
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,recall_Moderado,0.0125525
+f2,persistencia,no aplica,cv_desviacion,con_clase_t,recall_critico,0.260537
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,MAE,3.36371
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,RMSE,18.5099
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,MAE_con_focos,9.43428
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,R2_log1p,0.524965
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,sesgo,-0.0155982
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,recall_alerta,0.616656
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,precision_alerta,0.619625
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,tasa_falsas_alarmas,0.0306058
+f1_7d,persistencia,no aplica,entrenamiento_completo,todas,alertas_reales,6052
+f1_30d,persistencia,no aplica,entrenamiento_completo,todas,MAE,14.8599
+f1_30d,persistencia,no aplica,entrenamiento_completo,todas,RMSE,87.8429
+f1_30d,persistencia,no aplica,entrenamiento_completo,todas,MAE_con_focos,27.2215
+f1_30d,persistencia,no aplica,entrenamiento_completo,todas,R2_log1p,0.452656
+f1_30d,persistencia,no aplica,entrenamiento_completo,todas,sesgo,-0.12366
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,accuracy,0.65936
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,F1_macro,0.60228
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,error_ordinal,0.426079
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,recall_critico,0.726646
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,F1_Bajo,0.816249
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,recall_Bajo,0.812112
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,F1_Moderado,0.407091
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,recall_Moderado,0.405891
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,F1_Alto,0.471756
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,recall_Alto,0.470033
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,F1_Crítico,0.714023
+f2,persistencia,no aplica,entrenamiento_completo,con_clase_t,recall_Crítico,0.726646
+f1_7d,persistencia,no aplica,prueba_2025,todas,MAE,1.45131
+f1_7d,persistencia,no aplica,prueba_2025,todas,RMSE,5.29086
+f1_7d,persistencia,no aplica,prueba_2025,todas,MAE_con_focos,4.8406
+f1_7d,persistencia,no aplica,prueba_2025,todas,R2_log1p,0.357023
+f1_7d,persistencia,no aplica,prueba_2025,todas,sesgo,-0.0288521
+f1_7d,persistencia,no aplica,prueba_2025,todas,recall_alerta,0.509922
+f1_7d,persistencia,no aplica,prueba_2025,todas,precision_alerta,0.517967
+f1_7d,persistencia,no aplica,prueba_2025,todas,tasa_falsas_alarmas,0.0207281
+f1_7d,persistencia,no aplica,prueba_2025,todas,alertas_reales,1159
+f1_30d,persistencia,no aplica,prueba_2025,todas,MAE,5.80212
+f1_30d,persistencia,no aplica,prueba_2025,todas,RMSE,20.3734
+f1_30d,persistencia,no aplica,prueba_2025,todas,MAE_con_focos,12.1131
+f1_30d,persistencia,no aplica,prueba_2025,todas,R2_log1p,0.301986
+f1_30d,persistencia,no aplica,prueba_2025,todas,sesgo,-0.159607
+f2,persistencia,no aplica,prueba_2025,con_clase_t,accuracy,0.582162
+f2,persistencia,no aplica,prueba_2025,con_clase_t,F1_macro,0.561658
+f2,persistencia,no aplica,prueba_2025,con_clase_t,error_ordinal,0.526706
+f2,persistencia,no aplica,prueba_2025,con_clase_t,recall_critico,0.634568
+f2,persistencia,no aplica,prueba_2025,con_clase_t,F1_Bajo,0.72968
+f2,persistencia,no aplica,prueba_2025,con_clase_t,recall_Bajo,0.73536
+f2,persistencia,no aplica,prueba_2025,con_clase_t,F1_Moderado,0.40678
+f2,persistencia,no aplica,prueba_2025,con_clase_t,recall_Moderado,0.404819
+f2,persistencia,no aplica,prueba_2025,con_clase_t,F1_Alto,0.474429
+f2,persistencia,no aplica,prueba_2025,con_clase_t,recall_Alto,0.471861
+f2,persistencia,no aplica,prueba_2025,con_clase_t,F1_Crítico,0.635745
+f2,persistencia,no aplica,prueba_2025,con_clase_t,recall_Crítico,0.634568
+f1_7d,lineal,con,prueba_2025,todas,MAE,1.29491
+f1_7d,lineal,con,prueba_2025,todas,RMSE,4.84944
+f1_7d,lineal,con,prueba_2025,todas,MAE_con_focos,4.25129
+f1_7d,lineal,con,prueba_2025,todas,R2_log1p,0.533363
+f1_7d,lineal,con,prueba_2025,todas,sesgo,-0.570382
+f1_7d,lineal,con,prueba_2025,todas,recall_alerta,0.360656
+f1_7d,lineal,con,prueba_2025,todas,precision_alerta,0.670947
+f1_7d,lineal,con,prueba_2025,todas,tasa_falsas_alarmas,0.00772594
+f1_7d,lineal,con,prueba_2025,todas,alertas_reales,1159
+f1_7d,lineal,sin,prueba_2025,todas,MAE,1.299
+f1_7d,lineal,sin,prueba_2025,todas,RMSE,4.82308
+f1_7d,lineal,sin,prueba_2025,todas,MAE_con_focos,4.23617
+f1_7d,lineal,sin,prueba_2025,todas,R2_log1p,0.531859
+f1_7d,lineal,sin,prueba_2025,todas,sesgo,-0.549297
+f1_7d,lineal,sin,prueba_2025,todas,recall_alerta,0.367558
+f1_7d,lineal,sin,prueba_2025,todas,precision_alerta,0.669811
+f1_7d,lineal,sin,prueba_2025,todas,tasa_falsas_alarmas,0.00791437
+f1_7d,lineal,sin,prueba_2025,todas,alertas_reales,1159
+f1_7d,arbol,con,prueba_2025,todas,MAE,1.38232
+f1_7d,arbol,con,prueba_2025,todas,RMSE,5.61143
+f1_7d,arbol,con,prueba_2025,todas,MAE_con_focos,4.53719
+f1_7d,arbol,con,prueba_2025,todas,R2_log1p,0.501982
+f1_7d,arbol,con,prueba_2025,todas,sesgo,-0.394863
+f1_7d,arbol,con,prueba_2025,todas,recall_alerta,0.374461
+f1_7d,arbol,con,prueba_2025,todas,precision_alerta,0.613861
+f1_7d,arbol,con,prueba_2025,todas,tasa_falsas_alarmas,0.0102887
+f1_7d,arbol,con,prueba_2025,todas,alertas_reales,1159
+f1_7d,arbol,sin,prueba_2025,todas,MAE,1.37615
+f1_7d,arbol,sin,prueba_2025,todas,RMSE,5.47514
+f1_7d,arbol,sin,prueba_2025,todas,MAE_con_focos,4.50774
+f1_7d,arbol,sin,prueba_2025,todas,R2_log1p,0.504579
+f1_7d,arbol,sin,prueba_2025,todas,sesgo,-0.397305
+f1_7d,arbol,sin,prueba_2025,todas,recall_alerta,0.371009
+f1_7d,arbol,sin,prueba_2025,todas,precision_alerta,0.620491
+f1_7d,arbol,sin,prueba_2025,todas,tasa_falsas_alarmas,0.00991181
+f1_7d,arbol,sin,prueba_2025,todas,alertas_reales,1159
+f1_30d,lineal,con,prueba_2025,todas,MAE,4.65511
+f1_30d,lineal,con,prueba_2025,todas,RMSE,16.3771
+f1_30d,lineal,con,prueba_2025,todas,MAE_con_focos,9.22147
+f1_30d,lineal,con,prueba_2025,todas,R2_log1p,0.597312
+f1_30d,lineal,con,prueba_2025,todas,sesgo,-1.63273
+f1_30d,lineal,sin,prueba_2025,todas,MAE,4.65096
+f1_30d,lineal,sin,prueba_2025,todas,RMSE,16.3043
+f1_30d,lineal,sin,prueba_2025,todas,MAE_con_focos,9.19717
+f1_30d,lineal,sin,prueba_2025,todas,R2_log1p,0.596106
+f1_30d,lineal,sin,prueba_2025,todas,sesgo,-1.91072
+f1_30d,arbol,con,prueba_2025,todas,MAE,5.11766
+f1_30d,arbol,con,prueba_2025,todas,RMSE,22.7647
+f1_30d,arbol,con,prueba_2025,todas,MAE_con_focos,10.2124
+f1_30d,arbol,con,prueba_2025,todas,R2_log1p,0.590017
+f1_30d,arbol,con,prueba_2025,todas,sesgo,-0.678874
+f1_30d,arbol,sin,prueba_2025,todas,MAE,5.025
+f1_30d,arbol,sin,prueba_2025,todas,RMSE,21.4294
+f1_30d,arbol,sin,prueba_2025,todas,MAE_con_focos,10.0338
+f1_30d,arbol,sin,prueba_2025,todas,R2_log1p,0.595228
+f1_30d,arbol,sin,prueba_2025,todas,sesgo,-0.826186
+f2,arbol,con,prueba_2025,todas,accuracy,0.592334
+f2,arbol,con,prueba_2025,todas,F1_macro,0.509311
+f2,arbol,con,prueba_2025,todas,error_ordinal,0.590971
+f2,arbol,con,prueba_2025,todas,recall_critico,0.607483
+f2,arbol,con,prueba_2025,todas,F1_Bajo,0.762967
+f2,arbol,con,prueba_2025,todas,recall_Bajo,0.86105
+f2,arbol,con,prueba_2025,todas,F1_Moderado,0.30101
+f2,arbol,con,prueba_2025,todas,recall_Moderado,0.258905
+f2,arbol,con,prueba_2025,todas,F1_Alto,0.36911
+f2,arbol,con,prueba_2025,todas,recall_Alto,0.314498
+f2,arbol,con,prueba_2025,todas,F1_Crítico,0.604159
+f2,arbol,con,prueba_2025,todas,recall_Crítico,0.607483
+f2,arbol,con,prueba_2025,con_clase_t,accuracy,0.579095
+f2,arbol,con,prueba_2025,con_clase_t,F1_macro,0.541259
+f2,arbol,con,prueba_2025,con_clase_t,error_ordinal,0.560951
+f2,arbol,con,prueba_2025,con_clase_t,recall_critico,0.634568
+f2,arbol,con,prueba_2025,con_clase_t,F1_Bajo,0.731884
+f2,arbol,con,prueba_2025,con_clase_t,recall_Bajo,0.823573
+f2,arbol,con,prueba_2025,con_clase_t,F1_Moderado,0.356697
+f2,arbol,con,prueba_2025,con_clase_t,recall_Moderado,0.309639
+f2,arbol,con,prueba_2025,con_clase_t,F1_Alto,0.44886
+f2,arbol,con,prueba_2025,con_clase_t,recall_Alto,0.415584
+f2,arbol,con,prueba_2025,con_clase_t,F1_Crítico,0.627595
+f2,arbol,con,prueba_2025,con_clase_t,recall_Crítico,0.634568
+f2,arbol,sin,prueba_2025,todas,accuracy,0.599303
+f2,arbol,sin,prueba_2025,todas,F1_macro,0.511925
+f2,arbol,sin,prueba_2025,todas,error_ordinal,0.592637
+f2,arbol,sin,prueba_2025,todas,recall_critico,0.638298
+f2,arbol,sin,prueba_2025,todas,F1_Bajo,0.766619
+f2,arbol,sin,prueba_2025,todas,recall_Bajo,0.872721
+f2,arbol,sin,prueba_2025,todas,F1_Moderado,0.31333
+f2,arbol,sin,prueba_2025,todas,recall_Moderado,0.256299
+f2,arbol,sin,prueba_2025,todas,F1_Alto,0.35872
+f2,arbol,sin,prueba_2025,todas,recall_Alto,0.295911
+f2,arbol,sin,prueba_2025,todas,F1_Crítico,0.60903
+f2,arbol,sin,prueba_2025,todas,recall_Crítico,0.638298
+f2,arbol,sin,prueba_2025,con_clase_t,accuracy,0.581906
+f2,arbol,sin,prueba_2025,con_clase_t,F1_macro,0.544244
+f2,arbol,sin,prueba_2025,con_clase_t,error_ordinal,0.565806
+f2,arbol,sin,prueba_2025,con_clase_t,recall_critico,0.649383
+f2,arbol,sin,prueba_2025,con_clase_t,F1_Bajo,0.737645
+f2,arbol,sin,prueba_2025,con_clase_t,recall_Bajo,0.824314
+f2,arbol,sin,prueba_2025,con_clase_t,F1_Moderado,0.375085
+f2,arbol,sin,prueba_2025,con_clase_t,recall_Moderado,0.333735
+f2,arbol,sin,prueba_2025,con_clase_t,F1_Alto,0.436934
+f2,arbol,sin,prueba_2025,con_clase_t,recall_Alto,0.391775
+f2,arbol,sin,prueba_2025,con_clase_t,F1_Crítico,0.627311
+f2,arbol,sin,prueba_2025,con_clase_t,recall_Crítico,0.649383
+f2,arbol_balanceado,con,prueba_2025,todas,accuracy,0.572489
+f2,arbol_balanceado,con,prueba_2025,todas,F1_macro,0.532129
+f2,arbol_balanceado,con,prueba_2025,todas,error_ordinal,0.561127
+f2,arbol_balanceado,con,prueba_2025,todas,recall_critico,0.563463
+f2,arbol_balanceado,con,prueba_2025,todas,F1_Bajo,0.759984
+f2,arbol_balanceado,con,prueba_2025,todas,recall_Bajo,0.707877
+f2,arbol_balanceado,con,prueba_2025,todas,F1_Moderado,0.373481
+f2,arbol_balanceado,con,prueba_2025,todas,recall_Moderado,0.46742
+f2,arbol_balanceado,con,prueba_2025,todas,F1_Alto,0.41433
+f2,arbol_balanceado,con,prueba_2025,todas,recall_Alto,0.395539
+f2,arbol_balanceado,con,prueba_2025,todas,F1_Crítico,0.580718
+f2,arbol_balanceado,con,prueba_2025,todas,recall_Crítico,0.563463
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,accuracy,0.56044
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,F1_macro,0.552885
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,error_ordinal,0.539228
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,recall_critico,0.577778
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,F1_Bajo,0.704517
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,recall_Bajo,0.630096
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,F1_Moderado,0.419686
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,recall_Moderado,0.46747
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,F1_Alto,0.483855
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,recall_Alto,0.527056
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,F1_Crítico,0.603482
+f2,arbol_balanceado,con,prueba_2025,con_clase_t,recall_Crítico,0.577778
+f2,arbol_balanceado,sin,prueba_2025,todas,accuracy,0.568702
+f2,arbol_balanceado,sin,prueba_2025,todas,F1_macro,0.533023
+f2,arbol_balanceado,sin,prueba_2025,todas,error_ordinal,0.558703
+f2,arbol_balanceado,sin,prueba_2025,todas,recall_critico,0.57887
+f2,arbol_balanceado,sin,prueba_2025,todas,F1_Bajo,0.751859
+f2,arbol_balanceado,sin,prueba_2025,todas,recall_Bajo,0.682349
+f2,arbol_balanceado,sin,prueba_2025,todas,F1_Moderado,0.366881
+f2,arbol_balanceado,sin,prueba_2025,todas,recall_Moderado,0.446568
+f2,arbol_balanceado,sin,prueba_2025,todas,F1_Alto,0.419227
+f2,arbol_balanceado,sin,prueba_2025,todas,recall_Alto,0.431227
+f2,arbol_balanceado,sin,prueba_2025,todas,F1_Crítico,0.594127
+f2,arbol_balanceado,sin,prueba_2025,todas,recall_Crítico,0.57887
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,accuracy,0.569384
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,F1_macro,0.562404
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,error_ordinal,0.527984
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,recall_critico,0.606173
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,F1_Bajo,0.711499
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,recall_Bajo,0.635285
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,F1_Moderado,0.426054
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,recall_Moderado,0.480723
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,F1_Alto,0.488573
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,recall_Alto,0.520563
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,F1_Crítico,0.623492
+f2,arbol_balanceado,sin,prueba_2025,con_clase_t,recall_Crítico,0.606173

@@ -1,0 +1,17 @@
+# BIODIVERSITY-GUARD-Predict: dashboard (Streamlit), servicio, API y modelos. Python 3.11.
+# Versiones exactas de ia_models/modelos_metadata.json para que los modelos .joblib carguen igual.
+streamlit==1.60.0
+# streamlit 1.60.0: es la version probada que acepta pandas 3 (streamlit 1.46 a 1.55 piden pandas<3, y los modelos se entrenaron con pandas 3.1.1)
+pandas==3.1.1
+numpy==2.2.4
+plotly==6.2.0
+scikit-learn==1.7.2
+xgboost==3.2.0
+lightgbm==4.7.0
+imbalanced-learn==0.14.2
+joblib==1.5.2
+scipy==1.15.2
+# API (uvicorn backend.api:app)
+fastapi==0.162.5
+uvicorn==0.54.0
+python-multipart==0.0.33
