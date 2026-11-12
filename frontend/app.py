@@ -38,16 +38,17 @@ ORDEN_CLASE = ["Bajo", "Moderado", "Alto", "Crítico", "Sin dato"]
 ORDEN_NIVEL = ["Sin focos", "Habitual", "Elevado", "Muy elevado"]
 
 st.markdown(f"""<style>
-.block-container {{padding-top: 1.6rem; max-width: 1300px;}}
-.kpi {{border:1px solid #D9DEE4; border-top:5px solid var(--c); border-radius:8px; padding:12px 14px; background:#FFFFFF; min-height:335px;}}
+.block-container {{padding-top: 4rem; max-width: 1300px;}}
+.kpis {{display:grid; grid-template-columns:repeat(auto-fill, minmax(max(215px, calc((100% - 42px) / 4)), 1fr)); gap:14px; margin:8px 0 14px 0;}}
+.kpi {{border:1px solid #D9DEE4; border-top:5px solid var(--c); border-radius:8px; padding:12px 14px; background:#FFFFFF; min-height:300px; box-sizing:border-box; min-width:0;}}
 .kpi .n {{font-size:0.82rem; color:#374151; font-weight:600; min-height:2.4em;}}
-.kpi .v {{font-size:2rem; font-weight:700; color:#111827; line-height:1.15;}}
+.kpi .v {{font-size:clamp(1.35rem, 2.1vw, 2rem); white-space:nowrap; font-weight:700; color:#111827; line-height:1.2;}}
 .kpi .u {{font-size:0.8rem; color:#4B5563;}}
 .kpi .e {{display:inline-block; margin:6px 0; padding:1px 9px; border-radius:10px; font-size:0.8rem; font-weight:700; color:#fff; background:var(--c);}}
 .kpi .t {{font-size:0.76rem; color:#374151;}}
 .kpi .l {{font-size:0.78rem; color:#111827; margin-top:6px;}}
 .banner {{border-radius:8px; padding:12px 16px; margin:10px 0; background:#F3F4F6; border-left:6px solid var(--c); color:#111827;}}
-.estado {{border-radius:8px; padding:8px 14px; background:#F3F4F6; border-left:6px solid var(--c); color:#111827;}}
+.estado {{border-radius:8px; padding:8px 14px; margin:2px 0 10px 0; background:#F3F4F6; border-left:6px solid var(--c); color:#111827;}}
 </style>""", unsafe_allow_html=True)
 
 
@@ -113,12 +114,11 @@ ESTADO_ICONO = {"estable": "🟢", "vigilancia": "🟠", "reentrenar": "🔴", "
 
 
 def cabecera(titulo):
-    c1, c2 = st.columns([1, 2])
-    c1.markdown(f"## {titulo}")
+    st.markdown(f"## {titulo}")
     e = EST.get("estado", "sin_dato")
-    c2.markdown(f"<div class='estado' style='--c:{ESTADO_COLOR.get(e, GRIS)}'><b>Semana {SEM}</b> · "
-                f"Estado del modelo: {ESTADO_ICONO.get(e, '⚪')} <b>{e.capitalize()}</b><br>"
-                f"<span style='font-size:.85rem'>{EST.get('mensaje', '')}</span></div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='estado' style='--c:{ESTADO_COLOR.get(e, GRIS)}'><b>Semana {SEM}</b> · "
+                f"Estado del modelo: {ESTADO_ICONO.get(e, '⚪')} <b>{e.capitalize()}</b>"
+                f" · <span style='font-size:.85rem'>{EST.get('mensaje', '')}</span></div>", unsafe_allow_html=True)
 
 
 def tarjeta(k):
@@ -144,10 +144,7 @@ def p_panel():
     if not kp:
         st.info("El servicio no devolvió KPI para esta semana.")
     else:
-        for i in range(0, len(kp), 5):
-            cols = st.columns(5)
-            for c, k in zip(cols, kp[i:i + 5]):
-                c.markdown(tarjeta(k), unsafe_allow_html=True)
+        st.markdown("<div class='kpis'>" + "".join(tarjeta(k) for k in kp) + "</div>", unsafe_allow_html=True)
         with st.expander("¿De dónde sale este umbral?"):
             fi = c_fichas(V)
             tabs = st.tabs([k["nombre"] for k in kp])
